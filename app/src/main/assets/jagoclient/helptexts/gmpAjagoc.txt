@@ -1,0 +1,4 @@
+(gmpAjagoc.txt)
+
+Ajagoc package contains GNUGO v3.8.
+"Go Protocol Server" is fixed to /data/data/com/ajagoc/files/Agnugo.

@@ -1,0 +1,22 @@
+(helpAjagoc.txt)
+
+Help files are not revised.
+(You can see by "More..." button on help panel about update for Ajagoc.)
+
+You can add or modify help text by placing your files
+on the following folder.
+If you use multiple locale, put file with name suffixed
+like as about_de.txt.
+Originally _de,_fr,_it,_pl,_ru,_ja is prepared.
+
+  /sdcard/Ajagoc/jagoclient/helptexts/xxxxx.txt
+
+    about.txt  aboutAjagoc.txt  advanced.txt  board.txt
+    channels.txt configure.txt  confpartner.txt  encoding.txt
+    filter.txt  firewall.txt  fkeys.txt  games.txt  gmp.txt
+    gmp.txt  help.txt  keyboard.txt  language.txt  mail.txt
+    moves.txt  obsplay.txt  overview.txt  partner.txt
+    playing.txt  port.txt  relayserver.txt  server.txt
+    sgf.txt  sound.txt  teaching.txt  terminal.txt
+    variations.txt  who.txt  windows.txt yourname.txt
+

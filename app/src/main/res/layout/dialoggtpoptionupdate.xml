@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //vad2:120423 (Axe)Charset option by Arm related option dialog -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="1px"
+             android:orientation="horizontal"
+	            android:focusable="true"
+	            android:focusableInTouchMode="true"
+        />	<!--dummy for avaoid ime popup;and requestFocus on Name field was comment outed-->
+
+                <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                >   <!-- layout in scrollview -->
+                    <LinearLayout
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                    >
+                        <TextView
+                             android:layout_height="wrap_content"
+                            android:text="@string/GtpCommandOptionTime"
+             	 android:layout_width="fill_parent"
+                 android:layout_weight="2"
+                        />         
+                        <EditText
+                             android:id="@+id/GTP_COMMANDOPTION_TIME"
+                             android:layout_height="wrap_content"
+                 android:layout_weight="1"
+             	 android:layout_width="fill_parent"
+                 android:inputType="number"
+                        />             
+                    </LinearLayout>
+                    <LinearLayout
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                    >
+                        <TextView
+                             android:layout_height="wrap_content"
+                            android:text="@string/GtpCommandOptionThread"
+             	 android:layout_width="fill_parent"
+                 android:layout_weight="2"
+                        />         
+                        <EditText
+                             android:id="@+id/GTP_COMMANDOPTION_THREAD"
+                             android:layout_height="wrap_content"
+             	 android:layout_width="fill_parent"
+                 android:layout_weight="1"
+                 android:inputType="number"
+                        />             
+                    </LinearLayout>
+
+                </LinearLayout> <!-- layout in scrollview -->
+        <LinearLayout
+             android:id="@+id/DialogButtons"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_alignParentBottom="true"
+        >
+            <Button
+                android:id="@+id/Close"                    
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/OK"
+                android:layout_gravity="center_vertical"
+            />
+            <Button
+                android:id="@+id/Cancel"                   
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/Cancel"
+                android:layout_gravity="center_vertical"
+            />
+            <Button
+                android:id="@+id/Help"                   
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/Help"
+                android:layout_gravity="center_vertical"
+            />
+        </LinearLayout> <!-- Buttons-->
+</LinearLayout>

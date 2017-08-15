@@ -1,0 +1,4 @@
+(fkeysAjagoc.txt)
+
+If your terminal has no Fn key,
+use Center-button or Enter-key just after only one digit "0"-->"9".("0" is for F10)

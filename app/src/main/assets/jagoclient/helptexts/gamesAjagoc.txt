@@ -1,0 +1,4 @@
+(gamesAjagoc.txt)
+
+Long pressing entry of the list popups dialog
+also to select Observ/Peek/Status.

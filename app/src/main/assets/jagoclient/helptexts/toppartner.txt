@@ -1,0 +1,50 @@
+(toppartner.txt)
+
+Wi-Fi Direct:(From Android 4)    
+    Open dialog "Wi-Fi Direct",
+    which follows operations Discover,Pair and Connect.
+Bluetooth:
+    Open dialog "Bluetooth Connection",
+    which follows operations Pair(Discoverable and Scan)
+    and make connection(Accept and Connect)
+
+NFC-WD:(Available for the device attached NFC tag)
+    Open dislog "NFC : WiFi Direct".
+    Close NFC tag part of the two devices
+    displaying this dialog.
+    Touch the screen of one device
+    when "Touch to beam" is shown.
+    Two device will be connected
+NFC-BT:(Available for the device attached NFC tag)
+    Open dislog "NFC : Bluetooth Insecure".
+    Close NFC tag part of the two devices
+    displaying this dialog.
+    Touch the screen of one device
+    when "Touch to beam" is shown.
+    Two device will be connected with InSecure mode.
+
+Connect:
+    Connect to selected Server or Partner.
+Edit:
+    Edit the selected destination.
+Add:
+    Add new destination to the list.
+Delete:
+    Remove the selected entry.
+UnDelete:
+    Undo the previous Delete.
+Upwards:
+    Move upwards the selected line.
+Downwards:
+    Move downwards the selected line.
+ 
+(Forllowings are for "Partners connection")
+
+Open?: (Use on LAN) 
+    Search opened partner of the partners list.
+    List the partner with status of "Start Server"
+    (Top menu --> Partner --> Start Server).
+    You can connect from the panel "Open Partners".
+    Wireless LAN environment is required 
+    to search opened partner.
+

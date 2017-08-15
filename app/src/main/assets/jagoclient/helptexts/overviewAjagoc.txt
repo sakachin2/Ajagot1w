@@ -1,0 +1,122 @@
+(overviewAjagoc.txt)
+
+Go is a board game played from ancient times at east Asia.
+There are 4 playing mode.
+
+(1) Through Go server such as WING.
+	  (I tested WING only) 
+      Connect to selected server on top panel,
+      request match to the selected 'foo' on 'who' panel.
+      WING server(wing.gr.jp) port is 1515 and encoding=UTF-8
+      (2525 and encoding=MS932 for Japanese user). 
+      set Language:en_US by TopPanel-ContextMenu:Options-->Set Language.
+      Enter once "term e" command just after successful login.
+
+      Link WING:--> http://www.wing.gr.jp/indexe.html
+           JagoClient:-->http://jagoclient.sourceforge.net
+
+   At first, select server, push 'Connect' button then enter 'guest'.
+
+(2) Match with the known partner.
+      Without Go server, pear to pear matching with partner
+      which IP address is known.
+      (Device IP address is shown by Main Menu --> Partners)
+
+      Bluetooth enables Peer-to-peer matching without wireless-LAN environment.
+      (Main Menu --> Bluetooth --> Help)
+(3) LocalView
+      Top panel menu, Action-->LocalView.
+      This is simply a board view.
+      Use it to resolve Composed-Go-Problem, study Go-Master's record,
+      or review/make variation of sgf file.
+      You can play face-to-face matching if your terminal screen is big enough.
+(4) Match with Robot
+      Top panel menu, vs Computer --> Gnugo3.8, pachi, fuego, ray.
+                               sakachin2@gmail.com
+====================
+Operation
+===(<Android 3.0)
+  "Menu"   : Diaply Option-Menu.
+               Stop :terminate application
+               Close:close current panel.
+               Help :display Help-Menu of current panel.
+               Menu :display Menu of current panel.
+  "Back"   : Back to previous panel.
+             Menu/Dialog is closed if opened.
+  "Search" : Treated  as "Enter" (Default setting)
+             To google, use it after switching to home by "Home" button.
+             Back to Go by "Apps now running" button. 
+
+  "TitleBar" touch
+      Center   :display Context-Menu(Menu for each panel).
+                ex. on top Panel, Action-->Select playing mode.
+      LeftEdge :show the parent panel.
+      RightEdge:show the child panel. 
+                For landscape Local-View panel, free upto TitlebarHeight*2 from right edge.
+      Long press(1 second) shows Option-Menu.
+===(>=Android 3.0)
+  No Menu Button and TitleBar is ActionBar
+    Left Arrow:show parent panel.
+    Menu:display Context-Menu(Menu for each panel).
+    Right Arrow:show child panel.
+    OverflowMenu(vertical 3 dots):display options menu
+    (No OverflowMenu for the device with Menu button,
+     use Menu button to open options menu) 
+        Stop :terminate application
+        Close:close current panel.
+        Help :display Help-Menu of current panel.
+===
+
+  On Go-Board
+    Buttons
+      "Direction"(Up/Down/Left/Right) buttons move Cursor.
+      "Center" button or "Enter"/"Search" key  sets a stone.
+    Touch
+      A Click on board moves Cursor at the position.
+      Slide(drag) moves Cursor to the direction. 
+      Touching on the Cursor position sets stone.
+      Click on small yellow button bellow the board also sets stone.
+      Or you can select one-touch-mode from Ajagoc options.
+    Keyboard
+      If equipped see Menu --> Help --> Keyboard Shortcuts
+
+  Whos and Games panel shows list of who and match,
+  long press on a line shows Context-Menu about the Who/Game.
+====================
+Ajagoc options.
+  Direction Key as Shortcut.
+    Set ON to use direction keys as shortcut key
+    if your terminal has trackball.
+  Use Serach key as Enter
+    Set OFF not to use Search button as Enter key,
+    if your terminal has hardware keyboard.
+  One touch mode.
+    A move is determined by touching once. 
+    Use when screen is large enough not to mistouch.
+====================
+Note.
+  .Portrait or Lanscape is fixed to the status at board opened.
+
+  .Context-Menu will be pop-up also by long press at non-clickable position
+   such as button, list except on Go-board panel.
+
+  .Font Change Reference, roughly speaking, used as following. 
+     (Menu Item is Android native, is not changed)
+     Board  : Text on Board such as coordinates.
+     Fixed  : Server/partner/Whos/Games list, Message Display.
+     Big    : Optional Clock showing remaining time.
+              Remaining move count is by "Fixed" font.
+     Normal : Button, Input field, Choice(DdropDownList), Dialog,
+              Information line on Board panel.
+    
+  .Change of Board Color or Cordinates option are time consuming process.
+   It is so for Reconection after line-error or End-of-Game panel, be patient.
+
+  .Memory size limit may be severe, close ended game board.
+   When "OutOfMemory" is issued, set following options to off. 
+     MainPanel Options-->Board Options-->Fine Board
+     Go Panel Options-->True Color Board, True Color Stones,
+                        Anti-alias Stones, Shadows
+   Restart may be required.
+
+

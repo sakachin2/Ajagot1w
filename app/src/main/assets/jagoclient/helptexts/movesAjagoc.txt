@@ -1,0 +1,12 @@
+(movesAjagoc.txt)
+
++Shift and +Control is not tested.
+
+Making Moves
+  Cursor is moved to the cell touched.
+  Slide(Drag) moves cursor to the direction.
+  Touch on the cursor position makes a Move.
+  Yellow icon button displaying coordinate below the board
+  also makes a Move to the cursor positon.
+  One touch mode is a Ajagoc option.
+  When one touch mode, 1st touch without sliding makes a move.

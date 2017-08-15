@@ -1,0 +1,4 @@
+(gmpAjagoc_ja.txt)
+
+Ajagocは GNUGO v3.8 を同梱しています
+"碁プロトコルサーバー"は /data/data/com/ajagoc/files/Agnugo になります

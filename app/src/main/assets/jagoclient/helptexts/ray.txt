@@ -1,0 +1,41 @@
+(ray.txt)
+
+==Against Robo:ray==
+  Ray dose not support undo(takeback 2 stones).
+  To get game result,
+  you have to agree with Robo by move:pass.
+  (Menu-->Finish Game-->Pass)
+  Then remove all prisoners by touchig stones.
+  (Menu-->Finish Game-->Remove groups)
+  Finally show result.
+  (Menu-->Finish Game-->Local Count)
+  
+Program:
+  Default=ray (embedded)
+  To use another program with GTP interface,
+  specify the fullpath name.
+  Clear to restore default value when mis-typed.
+Your Name:
+  It is displayed on Game Information.
+Board Size:
+  19, 13 or 9
+Handicap:
+  For beginners, number of Black stones placed
+  at start of game. Maximum is 9.
+Komi:
+  Initial gain for White.
+  6.5 is current standard for even match.
+Play White:
+  Robo is first move, you are second move.
+Computer's Thinking Mode:
+  Playout       : tryal count per move
+  Constant time : time limit per move
+  Total time    : total time limit 
+Pondering:
+  There are rare cases that game result is
+  Thinks while you are thinking.
+Threads:
+  Parallel processing count.
+  Currently distributed device's CPU Core is 2 - 8. 
+  More cores make more stronger
+  but there may be bad influence to oher application.

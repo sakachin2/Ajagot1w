@@ -1,0 +1,8 @@
+(fuegooptionupdate.txt)
+
+==Robo:fuego commandline parameter==
+  
+Pondering Time:seconds per move.
+Number of Thread:Thread count
+
+(Specify manually on parent dialog directly)

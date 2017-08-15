@@ -1,0 +1,3 @@
+(advancedAjagoc.txt)
+
+"Use AWT TextArea/List" is ignored, default is used.

@@ -1,0 +1,5 @@
+(playingAjagoc.txt)
+
+"Partner Connection help" is from partner connection panel
+which is shown when connection succeeded.
+Touch title bar or through Menu button-->Help.

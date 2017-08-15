@@ -1,0 +1,8 @@
+(FileViewer.txt)
+
+"Encoding" :Select from dropdown list.
+  Dropdown list prepares SJIS, UTF8, ISO8859_1.
+  Use keyboard othe than it.
+  If space, use default of your device language.
+  (It may be UTF-8 as linux)
+  If changed, re-read the file.

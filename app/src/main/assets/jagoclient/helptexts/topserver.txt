@@ -1,0 +1,17 @@
+(topserver.txt)
+
+Connect:
+    Connect to selected Server or Partner.
+Edit:
+    Edit the selected destination.
+Add:
+    Add new destination to the list.
+Delete:
+    Remove the selected entry.
+UnDelete:
+    Undo the previous Delete.
+Upwards:
+    Move upwards the selected line.
+Downwards:
+    Move downwards the selected line.
+ 

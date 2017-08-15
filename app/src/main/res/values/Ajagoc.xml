@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ajagoc</string>
+    <string name="Version">V1.26</string>
+
+    <!--string name="Greeting">"Menu button shows Helps.\nTouch TitleBar for ContextMenu"</string>     1Agd-->
+    <!--string name="Greeting11">"For Helps, Touch Menu icon on TitleBar"</string>              1Agd-->
+    <string name="NoRegisteredContextMenu">"No menu regsitered for this Panel."</string>
+    <string name="NoRegisteredHelpMenu">"No help-menu regsitered for this Panel."</string>
+
+    <string name="MissingName">"Specify filename"</string>
+    <string name="FailedMkdir">"Failed to create path folder"</string>
+    <string name="NotDir">"Select Folder"</string>
+    <string name="Saved">"Saved to:"</string>
+    <string name="InfoSaved">"Successfully Saved\n"</string>
+    <string name="Exception">"Sorry, faied."</string>
+    <string name="NoSDCard">"No SD-Card is available"</string>
+    <string name="FailedListDirBySecurity">"List Folder failed by security reason"</string>
+    <string name="FailedListDir">"List Folder failed"</string>
+    <string name="FailedDelete">"Failed to Delete"</string>
+    <string name="FailedRemoveDir">"Failed to Remove Folder"</string>
+    <string name="NotEmptyDir">"Folder is not Empty"</string>
+    <string name="NoPrintSupport">"Print is not supported"</string>
+    <string name="BoardQWaiting">"Board is busy in drawing,wait a little bit. enqued request ctr="</string>
+    <string name="RestartRequired">"Option was changed, it is effective when restarted"</string>
+    <string name="AgnugoCopyFailed">"Copy Agnugo to Datadir was failed"</string>
+    <string name="GMP_NoAnswer">"No response from GMP Server"</string>
+    <string name="GMP_Death">"GMP server connection was terminated."</string>
+    <string name="GMP_ErrMsg">"GMP server response message:"</string>
+    <string name="endGameConfirmed">"EndGame confirmed.\nRemove prisoners"</string>
+
+    <string name="Hint_CF_WhoRange">6k</string>
+    <string name="Hint_CF_Game">99</string>
+
+    <string name="OptMenu_Stop">Exit</string>
+    <string name="OptMenu_Close">Close</string>
+    <string name="OptMenu_Help">Help</string>
+    <string name="OptMenu_Menu">Menu</string>
+    <string name="OptMenu_Previous">Back</string>
+    <string name="OptMenu_Next">Forward</string>
+
+	<string-array name="MenuText"> 
+		<item>Exit</item>
+		<item>Close</item>
+		<item>Help</item>
+		<item>Menu</item>
+	</string-array>
+
+    <string name="Qexit">Exit?</string>
+
+    <!--  BluetoothChat -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="dev_act_msg">BT-device response:</string>
+    <string name="BTstatus">Blutooth Status:</string>
+    <string name="noBTadapter">Bluetooth is not available</string>
+    <string name="notDiscoverable">Bluetooth is not discoverable</string>
+    <string name="nowDiscoverable">Now discoverable(in a short time)</string>
+    <string name="listening">Now listening connection from partner</string>
+    <string name="nowlistening">Started listening connection from partner</string>
+    <string name="failedBluetooth">Failed to Bluetooth processing</string>
+    <string name="alreadyconnected">Bluetooth session already exists</string>
+    <string name="lockContention">Busy,try once more:</string>
+    <string name="NoPartnerConnection">No connection with partner</string>
+<!--gamequestion/boardquestion dialog-->
+    <string name="Request">Request</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Accept">Accept</string>
+    <string name="Decline">Decline</string>
+<!--matchjquestion dialog-->
+    <string name="Opponent">Opponent</string>
+    <string name="BoardSize">Board Size</string>
+    <string name="YourColor">Your Color</string>
+    <string name="Timer">Timer (min)</string>
+    <string name="ExtraTime">Extra Time (min)</string>
+    <string name="Match">Match</string>
+    <string name="MatchType">Match Type</string>
+	<string-array name="MatchingType">
+	    <item>Rating(Match)</item>
+     	<item>Rating Even(Ematch)</item>
+     	<item>Free(Fmatch)</item>
+     	<item>Free Even(FEmatch)</item>
+     	<item>Rating(Gmatch)</item>
+     	<item>League(Lmatch)</item>
+	</string-array>
+<!--editpartner dialog-->
+    <string name="Encoding">Encoding</string>
+<!--Ajagoc option menu-->
+    <string name="UseDirectionKey">Use DirectionKey as Shortcut</string>
+    <string name="UseSearchKey">Use Serach button as Enter</string>
+    <string name="OneTouchLocalBoard">One touch mode on Local-Board</string>
+    <string name="OneTouchMatchBoard">One touch mode on the other board</string>
+    <string name="DebugTrace">Debug Trace</string>
+<!--Err/Warning-->
+    <string name="WarningUseRelay">(MainFrame-Options:\"Use Relay\" is ON!!)</string>
+    <string name="ErrEncoding">Unsupported Encoding(%1$s).</string>
+    <string name="ErrOutOfMemory">OutOfMemotry-</string>
+    <string name="ErrPartnerIsYourself">It is yourself</string>
+    <string name="WarningNotLogin">login at first</string>
+    <string name="ErrGameNo">Error Input on Game Number Field.</string>
+<!-- -->
+    <string name="HelpForAjagoc">More ...</string>
+    <string name="Err_ACRA">"Unhandled Exception.\nCrash Report will be sent to author."</string>
+<!--gtp support-->
+    <string name="OK">OK</string>
+    <string name="Play">Play</string>
+    <string name="Help">Help</string>
+    <string name="GtpCommand">Program</string>
+    <string name="GtpCommandOption">Other optional parameters</string>
+    <string name="GtpCommandOptionTime">Pondering time per move</string>
+    <string name="GtpCommandOptionThread">Number of Thread</string>
+    <string name="GtpCommandOptionUpdate">Change</string>
+    <string name="GtpBookUse">Use opening book</string>
+    <string name="GtpBookFile">Book file</string>
+    <string name="GtpBoardsize">Board Size</string>
+    <string name="GtpHandicap">Handicap</string>
+    <string name="GtpYourName">Your Name</string>
+    <string name="GtpKomi">Komi</string>
+    <string name="GtpVerbose">Verbose</string>
+    <string name="GtpTimesetting">Main+Extra/Move</string>
+    <string name="GtpTimesettingExtra">min + </string>
+    <string name="GtpTimesettingExtraMove">sec / </string>
+    <string name="GtpRule">Rule</string>
+    <string name="GtpRule_Japanese">Japanese Rule</string>
+    <string name="GtpRule_Chinese">Chinese</string>
+    <string name="GtpWhite">Play White</string>
+    <string name="DialogTitle_gtpconnection">Match against computer</string>
+    <string name="DialogTitle_gtpoptionupdate">Usual pachi option setup</string>
+    <string name="DialogTitle_gtpoptionupdateFuego">Usual fuego option setup</string>
+    <string name="Err_CanvasDead">Failure, Close this board.\n</string>
+
+    <string name="GtpErr_Pgm_NotFound">Program not found</string>
+    <string name="GtpErr_Book_NotFound">Book not found</string>
+    <string name="GtpErr_Pgm_Failed">Program failed:\n</string>
+    <string name="GtpErr_StdErrMsg">got error response msg:\n</string>
+    <string name="GtpErr_MissingAssetPGM">No GtpServer in Asset:</string>
+    <string name="GtpErr_MissingAssetBook">No Opening Book in Asset:</string>
+    <string name="GtpErr_Already_Gameovered">Already Gameovered</string>
+    <string name="GtpErr_Computer_Resigned">Computer resigned</string>
+    <string name="GtpErr_EnteredExtraTime">timeout, Entered Extra-Time.</string>
+    <string name="GtpErr_LooseByTimeout">lost by Timeout.</string>
+    <string name="GtpErr_ErrorMessage">Initialize Error</string>
+    <string name="GtpErr_Gameover_By_Both_Passed">Gameover by both players passed.</string>
+    <string name="GtpErr_Confirmation">Confirmation</string>
+    <string name="GtpErr_Resign_Confirmation">Resign?</string>
+    <string name="GtpErr_Already_Resigned">Already Resiged</string>
+    <string name="GtpErr_Undo_Failed">Undo failed</string>
+    <string name="GtpErr_Book_Warning">\"Use book\" option may take noticeably longer start up time for large size book.\nAlive message will issued each 15 seconds if healthy.</string>
+    <string name="GtpErr_ErrInStdErr">Received Error.</string>
+    <string name="GtpErr_NoBook_OptionParm">Use Book checkbox conflict with option parameter \"--nobook\".</string>
+
+    <string name="SideBlack">B:</string>
+    <string name="SideWhite">W:</string>
+    <string name="ColorBlack">Black</string>
+    <string name="ColorWhite">White</string>
+
+    <string name="GtpFmt_MSG_INVALID_RESPONSE">={0} sent a malformed response</string>
+    <string name="GtpFmt_MSG_INVALID_RESPONSE_2">={0} sent a response in an unexpected format ({1}).</string>
+    <string name="GtpFmt_MSG_ERROR_RESPONSE">={0} sent error response</string>
+    <string name="GtpFmt_MSG_PROGRAM_TERMINATED">{0} has terminated</string>
+    <!--string name="GtpFmt_MSG_PROGRAM_TERMINATED_2">Check the GTP shell window for error messages of {0}, which could be helpful to find the reason for this unexpected failure.</string-->
+    <string name="GtpFmt_MSG_PROGRAM_TERMINATED_2">{0}</string>
+    <!--string name="GtpFmt_MSG_PROGRAM_TERMINATED_3">Check the GTP shell window for error messages of {0}, which could be helpful to find the reason for this unexpected failure. You can reattach {0} from the Tools menu.</string-->
+    <string name="GtpFmt_MSG_PROGRAM_TERMINATED_3">{0}</string>
+    <string name="GtpFmt_MSG_PROGRAM_TERMINATED_4">The Go program did not respond to any commands. One possible reason is that the command for executing the program in GTP mode was not correct.</string>
+    <string name="GtpFmt_MSG_PROGRAM_TERMINATED_UNEXPECTEDLY">The Go program terminated unexpectedly</string>
+    <string name="GtpFmt_MSG_COULD_NOT_EXECUTE">Could not execute Go program</string>
+    <string name="GtpFmt_MSG_COULD_NOT_EXECUTE_2">The Go program could not be executed. Please correct the command for executing the program.</string>
+    <string name="GtpFmt_MSG_COULD_NOT_EXECUTE_3">The Go program could not be executed ({0}). Please correct the command for executing the program.</string>
+    <string name="GtpFmt_MSG_COMMAND_FAILED">Command failed</string>
+    <string name="GtpFmt_MSG_COMMAND_FAILED_2">The command \"{0}\" sent to the Go program failed.</string>
+    <string name="GtpFmt_MSG_COMMAND_FAILED_3">The command \"{0}\" sent to the Go program failed. The response was: \"{1}\"</string>
+    <string name="GtpFmt_MSG_UNKNOWN_PROGRAM_NAME">[Unnamed Program]</string>
+    <string name="GtpFmt_MSG_COULD_NOT_READ_ANALYZE_CONFIGURATION">Could not read analyze configuration file</string>
+    <string name="GtpFmt_MSG_COULD_NOT_READ_FILE">Could not read file</string>
+    <string name="GtpFmt_MSG_BOARD_CHANGING_COMMAND">Cannot send board changing command</string>
+    <string name="GtpFmt_MSG_PROGRAM_NOT_RESPONDING">The Go program is not responding.</string>
+    <string name="GtpFmt_MSG_PROGRAM_NOT_RESPONDING_2">The Go program did not terminate after the command stream was closed. Close panel to terminate program.</string>
+    <string name="GtpFmt_MSG_PROGRAM_NOT_RESPONDING_3">The Go program is not responding to the command \"{0}\". Game will be terminate if you close this panel.</string>
+    <string name="GtpFmt_MSG_PROGRAM_NOT_RESPONDING_4">The Go program is not responding to the command \"{0}\". Do you terminate program?</string>
+    <string name="GtpLB_WAIT">Wait</string>
+
+    <string name="FileDialog_LabelCurrDir">Current Folder</string>
+    <string name="FileDialog_LabelName">File Name</string>
+    <string name="HelpTitle_FileDialog">FileDialog</string>
+
+    <string name="ErrNameIsSpace">Name is missing</string>
+
+<!--ClipboardDialog-->
+    <string name="Title_FileDialogClipboard">----- Clipboard -----</string>
+    <string name="HelpTitle_FileDialogClipboard">----- Clipboard -----</string>
+    <string name="Paste">Paste</string>
+    <string name="Save">Save</string>
+    <string name="ErrClipboardNoText">Clipboard is empty</string>
+    <string name="ErrClipboardGetTextFailed">Failed to get clipboard text.</string>
+    <string name="ErrClipboardSaveFailed">Failed to save clipboard to file.\n</string>
+    <string name="ErrNoInputSaveFileName">Filename field is empty</string>
+    <string name="InfoClipboardSaved">Clipboard was saved.\n</string>
+    <string name="ButtonYouTube">OperationGuide Movie</string>
+    <string name="ActionDismissDialog">DismissDialog</string>
+    <string name="Title_SaveFile">File:Save</string>
+    <string name="WarningFileDialogNoMember">Empty folder</string>
+    <string name="ButtonNullFilter">*.*</string>
+<!--FileViewerDialog-->
+    <string name="Title_FileViewer">----- File Viewer -----</string>
+    <string name="HelpTitle_FileViewer">----- Help:File Viewer -----</string>
+    <string name="Title_FileViewerFilename">%1$s</string>
+    <string name="Close">Close</string>
+    <string name="ErrFileViewerNoText">Empty file</string>
+    <string name="ErrFileViewerNotSupportedEncoding">Not Supported Encoding(%1$s)"</string>
+    <string name="ErrFileViewerOpen">Open failed(%1$s)"</string>
+    <string name="ErrFileViewerTooLarge">Too large file,viewer limit is %1%d."</string>
+    <string name="ErrFileViewerRead">File Read Failed."</string>
+
+    <string name="InfoRetryConnectAfter">Wait %1$d seconds when retry."</string>
+
+<!--1A6Z-->
+<!--WifiDirect-->
+    <string name="enable_p2p_button">Settings</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Pair</string>
+    <string name="disconnect_peer_button">Unpair</string>
+    <!--string name="start_client">Request Game</string-->
+    <!--string name="start_server">Open Port</string-->
+    <string name="empty"></string>
+    <!--string name="yes">yes</string-->
+    <!--string name="no">no</string-->
+    <!--string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string-->
+    <string name="client_text">This device will act as a client.</string>
+    <string name="empty_message">No devices found. Perform \"Discover\"</string>
+    <string name="deviceFound">Select \"Available\" device, then perform \"Pair\" </string>
+    <string name="performIPConnect">Servier IP was gotten, \"Connect\" to server \nafter confirmed server-side hit \"Open Port\".</string>
+    <string name="performIPAccept">This is server side,\n\"Open Port\" to accept connection as server.</string>
+    <string name="p2p_off_warning">
+    				"Enable \"Wi-Fi Direct\" from \"Settings(See \"Help\")\n"
+    </string>
+    <string name="group_owner_text">"Server : "</string>
+    <string name="label_me">This Device</string>
+    <string name="label_peers">Discovered Device List</string>
+
+    <string name="DialogTitle_DeviceDetail">Wi-Fi Direct</string>
+    <string name="WiFiDirectButton">Wi-Fi Direct</string>
+    <string name="ErrWifiEnable">failed to enable Wi-Fi.</string>
+    <string name="InfoWifiEnabled">Wi-Fi was enabled.</string>
+    <string name="DiscoveryInitiated">Discovery initiated.</string>
+    <string name="DiscoveryFailedReason">Discovery failed, reason : </string>
+    <string name="ConnectFailedRetry">Pairing failed, Retry.</string>
+    <string name="ChannelLostRetry">Channel lost. Trying again.</string>
+    <string name="ChannelLostEnableP2P">Severe! Channel is probably lost permanently.\nTry after Enable Wi-Fi Direct(See \"Help\").</string>
+    <string name="AbortingConnection">Aborting pairing.</string>
+    <string name="ConnectAbortReason">Pairing abort request failed. Reason Code: </string>
+    <string name="ProgressDialogTitle">Press \"Back\" button to cancel</string>
+    <string name="ProgressDialogMsgConnecting">Pairing to : </string>
+    <string name="ProgressDialogMsgFindingPeer">finding peers</string>
+    <string name="OpeningServerSocket">Opening a server socket</string>
+    <string name="DeviceAvailable">Available</string>
+    <string name="DeviceInvited">Invited</string>
+    <string name="DeviceConnected">Paired</string>
+    <string name="DeviceFailed">Failed</string>
+    <string name="DeviceUnavailable">Unavailable</string>
+    <string name="DeviceUnknown">Unknown</string>
+    <string name="MyOwnerYes">Server</string>
+    <string name="MyOwnerNo">Client</string>
+    <string name="InfoWDUseOwnerIP">Gotten Server IP-Address : </string>
+    <string name="InfoWDOpenPort">Paired as Server, pearform "Open Port"</string>
+    <string name="WarningWDNotConnected">Wi-Fi Direct pairing is not established yet.</string>
+    <!--string name="doAction_WDAOK">WDAOK</string-->
+    <string name="PartnerNamePeer">Direct</string>
+    <string name="PeerDeviceName">Peer : </string>
+    <string name="GroupOwnerIP">Server IP :</string>
+<!-- NFC-->
+    <!--string name="WiFiNFCButton">NFC</string--><!--1Ab1-->
+    <string name="WifiNFCSettings">NFC Settings</string>
+    <string name="Help_WifiNFC">
+                  "When both devices are showing this panel, \n"
+                  "  contact two device's \"NFC\" sensor in a 10cm(3.9 in) or less.\n"
+				  "Then touch screen on a device\n"
+				  "  when \"Touch to Beam\" was shown.\n"
+                  "  \"New Tag Collected\" message means touched not this panel\n"
+                  "NFC Settings :\n"
+                  "  Popup system\'s \"Settings\" to enable \"NFC\".\n"
+                  "  If failed, try directly from system\'s \"Settings\".\n"
+                  "  Your device may not support NFC.\n"
+   </string>
+    <string name="WifiNFCInitialMsg">
+                  "When both devices are showing this panel,\n"
+                  "  contact two device's \"NFC\" sensor in a 10 cm(3.9 in) or less.\n"
+				  "Then touch screen on a device\n"
+				  "  when \"Touch to Beam\" was shown.\n"
+	</string>
+    <string name="ProgressDialogMsgConnectingNFC">NFC Pairing to : </string>
+    <string name="WarningIgnoredNewIntent">Ignored Tag for other than NFC Dialog</string>
+<!-- BT-->
+    <string name="BTStatusDiscovered">Available</string>
+    <string name="BTStatusPaired">Paired</string>
+    <string name="BTStatusConnected">Connected</string>
+    <string name="BTStatusDisConnected">DisConnected</string>
+    <!--string name="Err_No_connection_to_BT">
+					"No connection to %1$s\n"
+					"Confirm \"Open Port\" on the other hand.\n"
+				</string--><!--1Aeb-->
+<!--1A6a-->
+    <!--string name="DialogTitle_NFC">NFC (Near Field Communication)</string-->
+    <string name="LabelPeer">Peer</string>
+    <string name="InfoCreateNullNFCMsg">Not valid panel to process NFC contact</string>
+    <string name="InfoNoDeviceFoundNFC">No peer devices found for NFC"</string>
+    <string name="NFCLabelIP">IP Address : "</string>
+    <string name="NFCAlreadyPaired">Already Paired"</string>
+	<string name="NFCAccepting">"NFC:Waiting connection from Client.\n  (IP-Address=%1$s, port=%2$d)\n"
+		</string>
+	<string name="NFCConnecting">"NFC: Server=%1$s (%2$s), port=%3$d.\n"
+		</string>
+	<string name="NFCPairedNoSession">"Already paired with No session,\n  \"OpenPort\"/\"Connect\" to continue, \"Unpair\" for new pairing"</string>
+	<!--string name="NFCPairedInSession">"Already in session,\nClick \"Game\" from one of two. \OR "Unpair\" for new pairing"</string-->  
+	<!--string name="NFCPairedInSession">"Already in session,\nClick \"Game\" from one of two. \nOR \"Unpair\" for new pairing"</string-->    <!--1Aa1--><!--1Ae9-->
+    <string name="DeviceDisconnected">Disconnected</string>
+    <string name="NFCAccept">Accept</string>
+    <string name="NFCInSession">Already Connected</string>
+    <string name="NFCInPaired">Already Paired</string>
+    <string name="ErrWifiDisable">failed to Disable Wi-Fi.</string>
+    <string name="InfoWifiDisabled">Wi-Fi was Disabled.</string>
+    <string name="CallWiFiSetting">Setting</string>
+
+    <string name="TraceC">Canvas Trace On</string>
+    <string name="TraceT">UiThread Trace On</string>
+
+<!--1A74-->
+    <string name="InfoGameNotStarted">Game not started.(engotiation not yet completed)</string>
+    <string name="InfoGameAlreadyEnded">Game was already ended.</string>
+<!--1A78-->
+    <string name="ErrNoNFCAttachment">NFC reader is not available.</string> <!--1Agc-->
+    <string name="ErrNFCDisabled">NFC is disable, try \"NFC Settings\".</string>
+<!--V121-->
+    <string name="IPConnect">Connect</string>
+    <!--string name="IPGame">Game</string--><!--1Ae9-->
+    <string name="AcceptIPConnection">Open Port</string>
+    <string name="HelpTitle_WDA">Wi-Fi Direct</string>
+	<string name="Title_WaitingAccept">----- Waiting Connection -----</string>
+	<string name="Msg_WaitingIPAccept">"Waiting Connection Request.\n Device=%1$s, port=%2$d\n"
+					</string>
+	<string name="Title_WaitingConnect">----- Waiting Accept -----</string>
+	<string name="Msg_WaitingIPConnect">"Connecting to %1$s (port=%2$d).\n"
+					</string>
+    <string name="ErrNoThread">Failure, restart Application</string>
+    <string name="ErrWifi">Failed to find my AP-Address,\n close this dialog then check Wi-Fi status.</string>
+    <string name="StopAcceptIPConnection">Stop Accept</string>
+    <string name="IPDisConnect">Disconnect</string>
+	<string name="IPServer">IPServer</string>
+    <string name="InfoIPStopListening">Port closed.</string>
+    <string name="IPInSession">Connected</string>
+<!--20150228kan-->
+    <string name="Title_ConfirmDisconnect">Disconnect Confirmation</string>
+    <string name="Msg_ConfirmDisconnect">Now active session exists.\nIt will be disconnected when excute \"Uppair\".\nDo you execute \"Unpair\"?</string>
+    <string name="ErrSelectItem">Select a item</string>
+<!--20150301osn-->
+    <string name="PartnerConnectionPanel">PartnerConnection</string>
+    <string name="ErrOtherActiveSession">
+				"Only one session can be active simultaneously.\n"
+				"To create new session, disconnect currently active session\n"
+				"by closing \"PartnerConnection\" panel.\n"
+				"Use \"Back\" button to switch to \"PartnerConnection\" panel."
+		</string>
+<!--for V1.22-->
+    <string name="server_text">This device will act as server(ConnectionAccepter).</string>  <!--1Aa4-->
+    <string name="BTNFCButton">NFC-BT</string>  <!--1Ab1-->
+    <string name="WiFiNFCButton">NFC-WD</string><!--1Ab1-->
+    <string name="WarningNFCBTNotDiscoverable">
+					"This device is not visible(not discoverable).\n"
+    				"Bluetooth-Secure connection may fail by missing to show pairing confirmation dialog.\n"
+    				"If so,retry after set visible from \"Settings:Bluetooth\" button."
+                    "\n\n"
+                    "Cancel : Close this dialog to back to \"Settings\".\n"
+                    "OK : Try to connect.\n"
+	</string>
+    <string name="WarningBTNotDiscoverable">
+					"This device is not visible(not discoverable).\n"
+    				"Bluetooth-Secure connection may fail by missing to show pairing confirmation dialog.\n"
+    				"If so,retry after set visible from \"Settings\" button."
+                    "\n\n"
+                    "Cancel : Close this dialog to back to \"Settings\".\n"
+                    "OK : Try to connect.\n"
+	</string>
+    <string name="LabelLocalDevice">Device : </string>
+    <string name="LabelRemoteDevice">Connected Device : </string>
+	<string name="BTSecureOption">Secure Connection</string> <!--1Abu-->
+    <string name="BTSettingsButton">Settings</string> <!--1AbE-->
+    <string name="BTAcceptCommon">Accept</string>  <!--1Abu-->
+    <string name="BTConnectCommon">Connect</string><!--1Abu-->
+    <!--string name="BTGame">Game</string--><!--1Ae9-->
+    <string name="BTDisConnect">Disconnect</string>
+    <string name="LabelDeviceList">Paired Device List</string> <!--1A60-->
+    <string name="Discoverable">Discoverable</string>
+    <string name="StatusDiscoverable">(Status:Discoverable)</string>     <!--1Af3-->
+    <string name="StatusNotDiscoverable">(Status:Not Discoverable)</string> <!--1Af3-->
+    <string name="Discover">Scan</string>
+    <string name="Delete">Delete</string>
+   <string name="SelectDialogLabelSettings">Settings:</string>  <!--1AbC-->
+   <string name="SelectDialogWiFiSettings">WiFi</string>  <!--1AbC-->
+    <string name="SelectDialogWifiNFCSettings">NFC</string> <!--1AbC-->
+   <string name="BluetoothSettingsButton">Blueetooth</string>  <!--1Abo--> <!--1AbC-->
+    <string name="SelectNFCHandover">
+                  "Select Connection-type then,push OK.\n"
+                  "  (\n"
+                  "   Bluetooth-Secure option requirs the status\n"
+                  "   that remote device is available or paired.\n"
+                  "   Confirm it by \"Bluetooth Settings\" button\n"
+                  "  )"
+		</string>    <!--1Ab8-->  <!--1Abp-->
+    <string name="LabelHandoverType">Select connection type</string>
+    <string name="NFCHandoverIP">Wi-Fi Direct</string>
+    <string name="NFCHandoverBTSecure">Bluetooth-Secure</string>
+    <string name="NFCHandoverBTInSecure">Bluetooth-InSecure</string>
+    <string name="DialogTitle_NFCSelect">NFC Handover</string>
+    <string name="HelpTitle_NFCSelect">NFC Handover</string>
+    <string name="BTStatusConnectedOnce">Remembered</string>
+    <!--string name="Title_Bluetooth">========== Bluetooth Connection ==========</string--> <!--1Ae9-->
+    <string name="BTStopAccept">Stop Accept</string>
+	<string name="Msg_WaitingAccept">"Waiting %2$s Connection Request (Device=%1$s).\n"
+					</string>             <!--1Aed-->
+	<string name="Msg_WaitingConnect">"%2$s Connecting to %1$s.\n"
+					</string>             <!--1Aed-->
+	<string name="Title_WaitingDiscover">----- Waiting Discovery -----</string>
+	<string name="Msg_WaitingDiscover">"Scanning discoverable device.\n"
+					</string>
+    <string name="InfoDiscoverCanceled">Scan was canceled</string>
+    <string name="InfoNewDevice">%1$d devices found</string>
+    <string name="ErrNoNewDevice">No new device found, did you make discoverable on partners\' device</string>
+    <string name="ErrConnectingForScan">Try \"Scan\" after \"Disconnect\"ed.</string>
+    <string name="NoSession">None</string>
+    <string name="ActionDiscovered">Discovered</string>
+    <string name="HelpTitle_Bluetooth">Bluetooth Connection</string>
+    <string name="Game">Game</string>
+    <string name="UnknownDeviceName">Unknown</string>
+    <string name="WarningDeletingPaired">You have to UnPair from \"Settings\" to delete Paired Device from list.</string>
+    <string name="ErrNowIPConnected">Now IP connection is alive,\nRetry after once disconnect IP connection.</string>
+    <string name="ErrNowBTConnected">Now Bluetooth connection is alive,\nRetry after once disconnect BT connection.</string>
+    <string name="BTNFCInitialMsg">
+                  "When both devices are showing this panel,\n"
+                  "  contact two device's \"NFC\" sensor in a 10 cm(3.9 in) or less.\n"
+				  "Then touch screen on a device\n"
+				  "  when \"Touch to Beam\" was shown.\n"
+	</string>
+   <string name="HelpTitle_NFCBT">NFC Bluetooth</string> <!--1Abz-->
+   <string name="BTNFCInitialConnectedMsg">
+                  "There is a connection with the above device.\n"
+                  "If OK, start \"Game\",\n"
+                  "else if you want to connect to another device,\n"
+				  "\"Disconnect", then retry from \"NFC\" button."
+   </string>  <!--1Abh-->
+   <string name="BTNFCInitialListeningMsg">
+                  "Now listening another device's connect request.\n"
+                  "Once \"Stop Accept\", \"Cancel\" dialog,\n"
+                  "the reopen this dilaog."
+   </string>  <!--1Af8-->
+   <string name="WarningConnectingToNotPaired">
+                  "NFC-Bluetooth:Connecting Not-Paired-Device."
+   </string>  <!--1Abo-->
+   <string name="ErrTimeoutChkBonded">;
+                  "NFC Bluetooth pairing timeout(>%1$d).\n"
+                  "Retry or set pairing using System \"Settings\"."
+   </string>  <!--1Abn-->
+    <string name="WarningIgnoredNewIntentConflict">Opened NFC dialog unmatch of Wifi-Direct and Blueetooth.</string> <!--1Abk-->
+	<string name="WarningIgnoredNewIntentConnected">Ignored new NFC msg(this device already paired)</string> <!--1Abs-->
+   <string name="WarningNFCBTSecureLevelConflict">
+                  "Warinin:Bluetooth secure level unmatch.\n"
+                  "Partner requested %1$s, you selected %2$s.\n"
+                  "Connected accepting partners option.\n"
+				  "Cancel Game Request if you do not agree.\n"
+				  "And also disconnect session from \"NFC\" button if you want."
+   </string>  <!--1Abm-->
+    <string name="Title_NFCBT_Secure">NFC : Secure-Bluetooth</string>
+    <string name="Title_NFCBT_InSecure">NFC : InSecure-Bluetooth</string>
+    <string name="Title_NFCBT_Init">NFC : Bluetooth</string> <!--1Af4-->
+    <string name="HelpTitle_NFCWiFi">NFC WiFi Direct</string> <!--1Abz-->
+	<string name="ErrNFCWDInitialConnection">NFC connection is OK but Wi-Fi connection is NG.\nCheck wireless environment.</string> <!--1Abx-->
+    <string name="InfoBTEnabled">Bluetooth was now enable, retry the request.</string>
+    <string name="BTNotAvailable">Bluetooth is not Available</string>
+    <string name="ErrAcceptfailed">Could not Accept(%1$s), try App restart after reset(Off/On) bluetooth on Android Settings.</string>
+    <string name="ConnectedBTSecureConnection">Connected to %1$s (Secure).</string>
+    <string name="ConnectedBTInSecureConnection">Connected to %1$s (InSecure).</string>
+    <string name="ErrConnectConfirmAccept">Connection failed, Confirm target device is in "Waiting Connection Request" state.</string>
+    <string name="AcceptedBTSecureConnection">Accepted Connection(Secure) from %1$s.</string>
+    <string name="AcceptedBTInSecureConnection">Accepted Connection(InSecure) from %1$s.</string>
+    <string name="InfoBTDiscoverable">Now, Discoverable</string> <!--1AbE-->
+    <string name="InfoBTConnectable">Now, Connectable(not Discoverable)</string> <!--1AbE-->
+    <string name="InfoBTNone">Now,not Connectable nand Discoverable)</string> <!--1AbE-->
+    <string name="WarningBluetoothTurnedOff">Bluetooth was turned to OFF.\nRestart this application.</string> <!--1AbQ-->
+	<string name="Title_IPConnection">----- IP Connection -----</string>
+    <string name="EndgameResign">Resign ?</string>
+    <string name="ErrNotSelected">no selected item</string>
+    <string name="Title_EndGameQuestion">----- End -----</string>
+    <string name="BluetoothButton">Blutooth</string>
+    <string name="IPGame">OK</string>
+    <string name="BTGame">OK</string><!--1Ae9-->
+    <string name="Title_Bluetooth">----- Bluetooth Connection -----</string><!--1Ae9-->
+    <string name="DialogTitle_NFC">NFC : WiFi Direct</string>
+	<string name="NFCPairedInSession">"Already in session,\nClick \"OK\" to show panel to (re)start game. \nOR \"Unpair\" for new pairing"</string>    <!--1Aa1--><!--1Ae9-->
+    <string name="Err_No_connection_to_BT">
+					"Failed %2$s connection to %1$s.\n"
+					"Confirm \"Open Port\" on the partners device.\n"
+					"Multiple Bluetooth connection support depends the device type.\n"
+					"Is there any Bluetooth application working?\n"
+				</string><!--1Aeb-->
+	<string name="BTSecure">Secure</string>    <!--1Aed-->
+	<string name="BTInSecure">InSecure</string>    <!--1Aed-->
+    <string name="InfoRetryConnectAfterPartner">
+					" Partner is opened by Menu:\"Start Server\"?\n"
+					"Check it by \"Open?\" button.\n"
+					"Wait %1$d seconds when retry."</string><!--1Aeh-->
+    <string name="InfoRetryConnectAfterPartnerWD">
+					"Wait %1$d seconds when retry."</string><!--1Aeh-->
+    <string name="NoDeletedEntry">
+					"No Deleted Entry. (You can undelete only one generation.)"</string><!--1Af9-->
+<!-- 1Afc -->
+    <string name="GtpRayPlaymode">Computer\'s Thinking Mode</string>
+    <string name="GtpRayPlaymode_playout">Playout</string>
+    <string name="GtpRayPlaymode_consttime">Constant time</string>
+    <string name="GtpRayPlaymode_alltime">Total time</string>
+    <string name="GtpRayPlayout">trial count per move</string>
+    <string name="GtpRayConsttime">time per move (Sec.)</string>
+    <string name="GtpRayAlltime">total time limit(Min.)</string>
+    <string name="GtpRayPondering">Pondering</string>
+    <string name="GtpRayThread">Threads</string>
+    <string name="GtpRayBoardsize_19">19</string>
+    <string name="GtpRayBoardsize_13">13</string>
+    <string name="GtpRayBoardsize_9">9</string>
+    <string name="GtpRayShowOption">View Option</string>
+    <string name="GtpCommandOptionDisplay">Commandline Parameters </string>
+<!-- 1Afg -->
+    <string name="WaitingComputerPlayerInitiated">Computer Player Initilization in progress.</string>
+    <string name="ProgressDialogTitleGoGui">Processing</string>
+<!-- 1Afj -->
+    <string name="ProgressExpandGTPsoft">Unziping %1$s.</string>
+    <string name="DuplicatedGoFrameOpened">There is already another Go Board opened.</string>
+    <string name="DuplicatedFrameOpened">Duplicated Frame opened.</string>
+    <string name="UndoNotSupported">Undo is not supported by this Robo.</string>
+<!-- 1Afr -->
+    <string name="GtpGnugo_Cosmic">Use center oriented influence</string> 
+    <string name="GtpGnugo_Level">Strength(&lt;=10)</string>      
+    <string name="GtpGnugo_NoFusekiDB">Not use Fuseki Database</string>         
+    <string name="GtpGnugo_NoJosekiDB">Not use Joseki Database</string>         
+    <string name="GtpPie">Kick PIE binary</string>         
+<!-- 1Ag1 -->
+    <string name="TB_Local">Local Board</string>         
+    <string name="TB_Robot">Game vs Compuer</string>         
+    <string name="TB_Server">Game on Go-Server</string>         
+    <string name="TB_Partner">Game with neighbor</string>         
+    <string name="TB_Option">Options</string>         
+    <string name="TB_AjagocOption">Ajagoc Options</string>         
+    <string name="TB_OnlineHelp">Helps</string>         
+<!-- 1Ag2 -->
+    <string name="HelpBoardButton">Hints of Icon buttons</string>         
+    <string name="IconHelp_mark">set mark:X mark to the stone.</string>
+    <string name="IconHelp_square">set mark:square to the stone.</string>
+    <string name="IconHelp_triangle">set mark:trangle to the stone.</string>
+    <string name="IconHelp_circle">set mark:circle to the stone.</string>
+    <string name="IconHelp_letter">set mark:letter(a,b,c,...) to the stone</string>
+    <string name="IconHelp_text">set mark:any text to the vacant point.</string>
+    <string name="IconHelp_black">move alternately starting from black.</string>
+    <string name="IconHelp_white">move alternately starting from white</string>
+    <string name="IconHelp_setblack">move black continuously.</string>
+    <string name="IconHelp_setwhite">move white continuously</string>
+    <string name="IconHelp_delete">delete stone.</string>
+    <string name="IconHelp_deletemarks">delete all marks</string>
+    <string name="IconHelp_play">restart the game</string>
+    <string name="IconHelp_undo">undo</string>
+    <string name="IconHelp_allback">return to start of game.</string>
+    <string name="IconHelp_fasyback">10 moves backward.</string>
+    <string name="IconHelp_back">1 move backward.</string>
+    <string name="IconHelp_forward">1 move forward.</string>
+    <string name="IconHelp_fastforward">10 moves forward.</string>
+    <string name="IconHelp_allforward">forward to last move.</string>
+    <string name="IconHelp_variationback">return to previous variation.</string>
+    <string name="IconHelp_variationstart">return to start of this variation.</string>
+    <string name="IconHelp_variationforward">branche to next variation.</string>
+    <string name="IconHelp_main">return to start point of this variation.</string>
+    <string name="IconHelp_mainend">go forward to end of main branch.</string>
+    <string name="IconHelp_localboard">(followings are for Local-Board only)</string>
+    <string name="IconHelp_send">send message to opponent.</string>
+    <string name="IconHelp_setstone">put stone to the cursor(white squre) point.</string>
+<!-- 1Ag4 -->
+    <string name="InfoLoadedLocal">"File was successfully loaded(review note using icon buttons bellow)\n"</string>
+</resources>

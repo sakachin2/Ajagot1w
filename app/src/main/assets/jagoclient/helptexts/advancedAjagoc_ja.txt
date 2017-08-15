@@ -1,0 +1,3 @@
+(advancedAjagoc_ja.txt)
+
+"AWT TextArea を使う"/"AWT List を使う"は無視され、デフォルトが採用されます

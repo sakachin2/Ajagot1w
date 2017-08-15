@@ -1,0 +1,65 @@
+(Ajagoc_ja.txt)
+
+Ajagoc は jagoclient v5.1 の アンドロイド移植版です。
+Bluetooth 通信を追加しました
+
+Ajagocの操作方法は overviewAjagoc_ja.txt(ヘルプ-->概要-->追記)に移動しました
+YouTube動画:操作ガイドは
+https://www.youtube.com/watch?v=nUvaTV7lHGA&list=PL2clNB_BpXSXgLu7dGC8EtGH9xrGLn058
+
+====================
+
+インストール
+
+  Android Market から導入する以外に手持ちのapkファイルを直接導入する方法
+  (1)micro SD 経由の場合
+     1."Apkinstaller"などのインストーラーをAndroid Marketから端末に導入
+     2.目的のapkファイルをmicro SDカード内にコピー
+     3.1.のインストーラーを起動してメッセージに従い導入
+  (2)android SDK付属のツールadbを使用する場合 
+     1.PCと端末をUSBケーブルで接続
+       USBドライバーはSDKのusb_driverフォルダーから導入
+     2.端末で "設定"-->"アプリケーション"、"提供元不明のアプリ"を有効にする
+     3."adb install apkファイルフルパス"を実行
+
+  ロボット(GMPプロトコル)がリニュアルした場合は
+  名前をAgnugo 以外にするか /data/data/com.Ajagoc/files以外の場所にインストールして
+  それをGMP接続画面の "碁プロトコルサーバー" でフルパス名を指定してください
+  pachi,fuego,ray の新版をインストールした場合もそれぞれのダイアログデフルパス指定する
+
+====================
+
+国際化及び設定
+
+  ヘルプファイルはオリジナルのままです。
+  (Ajagoc として修正・追加がある場合は"追記"のボタンが現れます)
+  
+  ヘルプファイルを次の場所におくことで追加、修正することができます
+  複数言語を使用する場合は about_de.txt の様にサフィックスを付けて
+  切り替えを可能にしますサフィックスは現在
+  _de,_fr,_it,_pl,_ru,_ja が用意されています
+
+  (ロケール設定はヘルプを参照)
+
+    /sdcard/Ajagoc/jagoclient/helptexts/xxxxx.txt
+
+         about.txt  advanced.txt  board.txt  channels.txt configure.txt
+         confpartner.txt  encoding.txt filter.txt  firewall.txt  fkeys.txt  games.txt
+         gmp.txt  help.txt  keyboard.txt  language.txt  mail.txt  moves.txt  obsplay.txt
+         overview.txt  partner.txt  playing.txt  port.txt  relayserver.txt  server.txt
+         sgf.txt  sound.txt  teaching.txt  terminal.txt variations.txt  who.txt
+         windows.txt yourname.txt
+
+  ボタンのラベルなどの修正は次の場所に置いてください
+    /sdcard/Ajagoc/jagoclient/foreign/JagoRsource.properties"
+  複数言語を使用する場合は サフィックスを付けたものを用意
+    /sdcard/Ajagoc/jagoclient/foreign/JagoRsource_xx.properties
+
+  サーバーリストなどの修正は次の場所に置いてください(画面からも追加修正可能)
+    /sdcard/Ajagoc/xxxx.cfg
+      go.cfg, server.cfg, partner.cfg, filter.cfg
+
+====================
+
+  ソース・コード
+    http://www.geocities.jp/sakachin2/index.htm

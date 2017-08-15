@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+	    android:id="@+id/Actions"
+    	android:title="Actions" 
+    >
+    	<menu>
+            <item
+                android:id="@+id/Local_Board"
+                android:title="Local Board" 
+            />
+            <item
+                android:id="@+id/Play_Go"
+                android:title="Play Go" 
+            />
+            <item
+                android:id="@+id/Play_Gtp"
+                android:title="Play Gtp" 
+            />
+            <item
+                android:id="@+id/Close"
+                android:title="Close" 
+            />
+        </menu>
+    </item>
+	<item
+	    android:id="@+id/Go_Server"
+    	android:title="Go Server" 
+    >
+    	<menu>
+            <item
+                android:id="@+id/Automatic_Login"
+                android:title="Automatic_Login" 
+                android:checkable="true"
+            />
+            <item
+                android:id="@+id/Filter"
+                android:title="Filter" 
+            />
+            <item
+                android:id="@+id/Function_Keys"
+                android:title="Function Keys" 
+            />
+        </menu>
+    </item>
+	<item
+	    android:id="@+id/Partner"
+    	android:title="Partner" 
+    >
+    	<menu>
+            <item
+                android:id="@+id/Start_Server"
+                android:title="Start Server" 
+            />
+            <item
+                android:id="@+id/Server_Port"
+                android:title="Server Port"
+            />
+            <item
+                android:id="@+id/Your_Name"
+                android:title="Your Name" 
+            />
+            <item
+                android:id="@+id/Public"
+                android:title="Public" 
+                android:checkable="true"
+            />
+        </menu>
+    </item>
+	<item
+	    android:id="@+id/Options"
+    	android:title="Options" 
+    >
+    	<menu>
+            <item
+                android:id="@+id/Board_Options"
+                android:title="Board Options" 
+            />
+            <group>
+                <item
+                    android:id="@+id/Navigation_Tree"
+                    android:title="--Navigation tree"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Timer_in_Title"
+                    android:title="--Timer in Title" 
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Big_Timer"
+                    android:title="--Big Timer" 
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Extra_Information"
+                    android:title="--Extra_Information" 
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Extra_Send_Field"
+                    android:title="--Extra_Send_Field" 
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Fine_Board"
+                    android:title="--Fine Board" 
+                    android:checkable="true"
+                />
+            </group>
+            <item
+                android:id="@+id/Advanced_Options"
+                android:title="Advanced Options"
+            />
+            <item
+                android:id="@+id/Fonts"
+                android:title="Fonts"
+            />
+            <group>
+                <item
+                    android:id="@+id/Board_Font"
+                    android:title="--Board Font"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Fixed_Font"
+                    android:title="--Fixed Font"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Big_Font"
+                    android:title="--Big Font"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Normal_Font"
+                    android:title="--Normal Font"
+                    android:checkable="true"
+                />
+            </group>
+            <item
+                android:id="@+id/Background_Color"
+                android:title="Background Color"
+            />
+            <item
+                android:id="@+id/Sound_on"
+                android:title="Sound on"
+                android:checkable="true"
+            />
+            <item
+                android:id="@+id/Beep_only"
+                android:title="Beep only"
+                android:checkable="true"
+            />
+            <item
+                android:id="@+id/Sound_Options"
+                android:title="Sound_Options"
+            />
+            <group>
+                <item
+                    android:id="@+id/Simple_sound"
+                    android:title="--Simple_sound"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Every_move"
+                    android:title="--Every move"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Timeout_Warning"
+                    android:title="--Timeout Warning"
+                    android:checkable="true"
+                />
+                <item
+                    android:id="@+id/Tes_Sound"
+                    android:title="Test Sound"
+                />
+            </group>
+            <item
+                android:id="@+id/Use_Relay"
+                android:title="Use Relay"
+                android:checkable="true"
+            />
+            <item
+                android:id="@+id/Relay_Server"
+                android:title="Relay Server"
+            />
+            <item
+                android:id="@+id/Set_Language"
+                android:title="Set Language"
+            />
+            <item
+                android:id="@+id/Close_and_Use_English"
+                android:title="Close and Use English"
+            />
+        </menu>
+    </item>
+	<item
+	    android:id="@+id/Help"
+    	android:title="Help" 
+    >
+        <menu>
+            <item
+                android:id="@+id/About_Jago"
+                android:title="About Jago"
+            />
+            <item
+                android:id="@+id/Overview"
+                android:title="Overview"
+            />
+            <item
+                android:id="@+id/Using_Windows"
+                android:title="Using Windows"
+            />
+            <item
+                android:id="@+id/Configuring_Connections"
+                android:title="Configuring Connections"
+            />
+            <item
+                android:id="@+id/Partner_Connections"
+                android:title="Partner Connections"
+            />
+            <item
+                android:id="@+id/About_Sounds"
+                android:title="About Sounds"
+            />
+            <item
+                android:id="@+id/About_Smart_Go_Format_SGF"
+                android:title="About Smart Go Format SGF"
+            />
+            <item
+                android:id="@+id/About_Filter"
+                android:title="About Filter"
+            />
+            <item
+                android:id="@+id/About_Function_Keys"
+                android:title="About Function Keys"
+            />
+            <item
+                android:id="@+id/Overcoming_Firewalls"
+                android:title="Overcoming_Firewalls"
+            />
+            <item
+                android:id="@+id/Play_Go_Help"
+                android:title="Play Go Help"
+            />
+            <item
+                android:id="@+id/About_Help"
+                android:title="About Help"
+            />
+            <item
+                android:id="@+id/On_line_Version_Information"
+                android:title="On line Version Information"
+            />
+    	</menu>
+    </item>
+</menu>

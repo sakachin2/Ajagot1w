@@ -1,0 +1,12 @@
+JagoClient
+
+jagClient ist ein Client zur Verbindung mit einem der Internet Go 
+Server und ein SGF-Editor. 
+
+Copyright Rene Grothmann.
+
+Das Programm ist frei verfügbar unter der Gnu General Public License
+(Gnu GPL).
+
+Der Autor übernimmt keine Verantwortung für dieses Programm.
+

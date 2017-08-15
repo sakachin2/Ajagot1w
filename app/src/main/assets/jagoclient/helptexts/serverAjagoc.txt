@@ -1,0 +1,4 @@
+(serverAjagoc_ja.txt)
+
+Long pressing will popups dialog of alternative way of command typing.
+You can enter tell/match command from popup menu by long pressing. 

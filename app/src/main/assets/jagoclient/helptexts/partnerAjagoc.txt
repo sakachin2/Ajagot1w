@@ -1,0 +1,11 @@
+(partnerAjagoc.txt)
+
+To end game, select menu item Menu-->"Finish Game"-->"End Game".
+The game ednds if opponent accept "End Game".
+After "End Game", you can remove captured stones by touching it.
+Then select menu item Menu-->"Finish Game"-->"Count".
+"Count" sends request of acceptance of the count to the partner
+because removal of captured stones is local.
+
+Local count is alaways checked by Menu-->"Finish Game"-->"Local Count".
+

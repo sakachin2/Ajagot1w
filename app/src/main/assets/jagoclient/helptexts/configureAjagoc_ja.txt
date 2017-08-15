@@ -1,0 +1,3 @@
+(configureAjagoc.txt)
+
+WING(wing.gr.jp) の場合 日本語端末はポート=2525、エンコーディング=MS932 にしてください

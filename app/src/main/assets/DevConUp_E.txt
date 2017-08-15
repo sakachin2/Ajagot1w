@@ -1,0 +1,135 @@
+This is jagoclient v5.1 porting to Android.
+(Original was made by rene-grothmann@de.)
+And Bluetooth communication function is added.
+(>=Android2.3.3:ApiLevel=10)
+
+"Go" is a board game played from ancient times at east Asia.
+There are 4 playing mode.
+(
+See  youtube movie list for operation:
+https://www.youtube.com/watch?v=q5PgAf_rji0&list=PL2clNB_BpXSXl46OnjdelaBe78XbFXVWR
+by "Menu-->Online Help-->Ajagoc?-->OperationGuide Moview button"
+)
+
+(1) Through Go server such as WING.
+      Connect to selected server on top panel,
+      request match to the selected 'foo' on 'who' panel.
+      To connect to the server, push Edit button to set URL, port# and Encoding.
+      WING server(wing.gr.jp) port is 1515 and encoding=UTF-8
+      (2525 and encoding=MS932 for Japanese user). 
+      set Language:en_US by TopPanel-ContextMenu:Options-->Set Language.
+      Enter once "term e" command just after successful login.
+      You can observe other player's match selecting from 'games' panel.
+
+      Link WING:--> http://www.wing.gr.jp/indexe.html
+           JagoClient:-->http://jagoclient.sourceforge.net
+
+   At first, select server, push 'Connect' button then enter 'guest'.
+(2) Match with the known partner.
+      Without Go server, pear to pear matching with partner
+      which IP address is known.
+      (Device IP address is shown by Main Menu --> Partners)
+      Almost public Wi-Fi spot rooter's setting of "Privacy Separator"
+      will prohibit communication among terminals under it.
+      Connection is available between two different spot
+      or domestic LAN and Wi-Fi spot.
+
+      For Android-4 device, WiFi Direct enable peer-to-peer IP connection without
+      wireless rooter(or access point).
+      WiFi Direct can reach distance of few 10 meters.
+      For devices with NFC attachment, you can create WiFi Direct connection 
+      by closing the part of NFC tag of the two devices in the range of 10 cm.
+
+      You can create connection also by (NFC+)Bluetooth for peer-to-peer matching
+      if IP connection is not available.
+(3) LocalView
+      This is simply a board view.
+      Use it to resolve Composed-Go-Problem, study Go-Master's record,
+      or review/make variation of sgf file.
+      It may be for face-to-face matching if your terminal screen is big enough.
+(4) Match with Robot
+      Your opponent is Agnugo which is my Android porting of gnugo.
+      Current GnuGo version is 3.8
+      pachi-11.0 is added(2016/10/01)
+      fuego-1.1  is added(2014/09/15)
+      ray-8.0.1  is added(2016/10/01)
+      (See www.geocities.jp/sakachin2/index.htm for Afuego(How to make fuego for Android.))
+                               sakachin2@gmail.com
+
+===>>  See more into Help:Ajagoc? and Overview-More...
+       Touch center of titlebar-->Online Help-->Ajagoc?, Overview.
+       Or push "Menu" button for help for <android3.0.
+       (push "More..." on help panel about peculiar to Ajagoc)
+       To swap screen cyclic, push left or right edge of titlebar.
+-----------------------------------------------------------------------
+2017/02/04 v1.26
+    Adjusted Robot:Aray it may not be work by the reason of large memory(.bss) size.
+    Change default value of playout mode 10000->1000 for Robot ray and pachi.(10000 is too heavy for smart-phone).
+    Bug:Initial board of Robot-match is sometimes displayed as black square.
+2016/10/11 v1.25
+    Top panel was changed for shortcut buttons to above 4 function.
+    Fixed bitmap memory leak to avoid OutOfMemory exception.
+2016/10/03 v1.24
+    Open soft:ray was added(It is said that stronger than fuego/pachi).
+    More convenient dialog to setup match with Robot.
+    Robot did not work on Android5.0(Lollipop)
+    which dose not support other than binary format PIE.
+2016/07/04 v1.23
+    Dispose "Abort" Dialog at start of match with GnuGo.
+2015/08/09 v1.22
+    Bluetooth connection button was moved to "Partner Connections" panel.
+    Support NFC handover to Bluetooth.
+    Maintains Bluetooth connection history LRU list to avoid re-scanning load.
+2015/04/17 v1.21
+    Wi-Fi Direct and NFC support for over Android 4.
+    It enables partner match without LAN environment.
+2014/12/15 v1.20
+    Added function to view clipboard contents.
+    Added function to view file contents and to display all fiels in the folder.
+    You can view YouTube movie:OperationGuide from Help-->Ajagoc.
+    (Bug) for Listing opened IP server by "Open?",Partner name by Japanese code will be truncated.
+2014/11/29 v1.19
+    FileDialog:sort fails sometimes.
+    Listing opened IP server by "Open?" button fails on over android 3.0.
+2014/11/21 v1.18
+    FileDialog:"save" saves to private data area if SDCard missing.
+    Utilize ActionBar from android 3.0.
+    strengthen parameter setting support for match against "pachi" and "fuego".
+    adjusted layout for medium dpi phone terminal.
+    (BugFix) hungs when FileDialog was dismissed by Back button.
+    (BugFix) FileDialog did not list *.xml files.
+    (BugFix) "Copy to Clipboard" was not worked.
+2014/09/15 v1.17
+    New Robo:fuego-1.1 may be stronger than gnugo3.8 a little.
+2014/08/14 v1.16
+    New Robo:pach-10.0 may be stronger than gnugo3.8 a little.
+2013/07/08 v1.15
+    Matching Go board is not displayed(on Android4.2.2, Android 4.2 has no problem).
+    On Who's list, selectd item position may change between long click and Action menu selection.
+2013/07/01 v1.14
+    When "Menu-->Options-->Use B/W marks" is OFF,
+      mark of last move is red "+".
+      Enlaged it to find the position easily.
+    One touch mode menu item was added also to board menu.
+2013/06/04 v1.13
+    files are now prepared by .mp3 format.
+    (.wav has dependency of android version.)
+    ACRA(mail crash report to developer) function was added.
+2013/05/19 v1.12
+	(Bug)Partner Connection:"Open?" did not show server list.
+	(Bug)Button was may be pushed out over boarder when font size was changed.
+	(Bug)On partner match, you could not move more if undo button pushed.
+2013/04/30 v1.11
+	Icon button on Go board was enlarged.
+    Text mark setting("1" icon button) was not effective on local board.
+    Option setting was not serialized if did not terminated through top panel close menu item.
+    Matching type is now selectable on match request througgh WING server.
+    Encoding parameter was added to partner connection.
+    OutOfMemory handling.
+    One-touch-mode support.
+2013/01/29 Update v110
+	Consideration for bluetooth glitch.
+      It may fail to connect after some times of connect and disconnect.
+      Try to connect from another device.
+      Or, try to Off and On on android bluetooth "Settings".
+	Fix orientation to at started.

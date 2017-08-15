@@ -1,0 +1,13 @@
+(FileDialog.txt)
+
+Display filename list in the folder to open/save/delete.
+  When tapped selected line, folder is opened,
+  and file's contens is shown on "File Viewer" dialog.  
+
+"*.*" : When *.sgf or *.xml is displayed on the title,
+  push this button to display all files.
+"Open" : Open the selected folder/Load the selected file
+  Selsect "<--Up" to back to parent folder.
+"Save" : Save to the selected folder
+"Delete" : Delete the selected file
+  Folder can be deleted if empty.

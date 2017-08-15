@@ -1,0 +1,14 @@
+(AjagocOptions.txt)
+
+Use DirectionKey as Shortcut:
+  Set ON to use direction keys as shortcut key
+  if your terminal has trackball.
+Use Serach button as Enter:
+  Set OFF not to use Search button as Enter key,
+  if your terminal has hardware keyboard.
+One touch mode on Local-Board:
+  A move is determined by touching once for Local-Board. 
+  Use when screen is large enough not to mistouch.
+One touch mode on the other board:
+  A move is determined by touching once for Match-Board. 
+  Use when screen is large enough not to mistouch.

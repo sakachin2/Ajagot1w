@@ -1,0 +1,45 @@
+(Top.txt)
+
+TitleBar touch
+===(Before Android 3.0)
+    Center   :display Context-Menu(Menu for each panel).
+    LeftEdge :show the parent panel.
+    RightEdge:show the child panel. 
+    Long press(1 second) shows Option-Menu.
+===(From Android 3.0)
+    Left Arrow:show parent panel.
+    Menu:display Context-Menu(Menu for each panel).
+    Right Arrow:show child panel.
+    OverflowMenu(vertical 3 dots):display options menu
+    (No Overflowoptions menu for device with Menu button,
+     use Menu button to open options menu) 
+        Stop :terminate application
+        Close:close current panel.
+        Help :display Help-Menu of current panel.
+
+At first, see help text of "Ajagoc?"
+or "Overview"(and "More...") by "Helps" button.
+OperationGuide movie is from Help:"Ajagoc?".
+-------------------------------------------------------
+Local Board:
+    Open Go-board to play locally, study Tsumego,
+    replay sgf file.
+Game vs Compuer:
+    You can match with various Go-soft.
+Game on Go-Server:
+    Switch to server list panel to connect to network Go-Server..
+Game with neighbor:
+    Switch to partner list panel for pier-to-pier connection.
+    Wireless LAN environment is required to connect
+    thru partners list. If there is no LAN environment
+    use Bluetooth connection or 
+    "Wi-Fi Direct" for over android 4.
+    For the device with NFC tag attached
+    close NFC tag of the two devices to hand over to
+    WiFi-Direct or Bluetooth connection.
+Options:
+	Display menu to set various options
+Ajagoc Options:
+	Display dialog to set options for Ajagoc specific.
+Helps:
+	Display menu to display various help text.

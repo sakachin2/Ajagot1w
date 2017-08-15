@@ -1,0 +1,68 @@
+(Top.txt)
+
+TitleBar touch
+===(Before Android 3.0)
+    Center   :display Context-Menu(Menu for each panel).
+    LeftEdge :show the parent panel.
+    RightEdge:show the child panel. 
+    Long press(1 second) shows Option-Menu.
+===(From Android 3.0)
+    Left Arrow:show parent panel.
+    Menu:display Context-Menu(Menu for each panel).
+    Right Arrow:show child panel.
+    OverflowMenu(vertical 3 dots):display options menu
+    (No Overflowoptions menu for device with Menu button,
+     use Menu button to open options menu) 
+        Stop :terminate application
+        Close:close current panel.
+        Help :display Help-Menu of current panel.
+
+At first, see help text of "Ajagoc?"
+or "Overview"(and "More...") by Menu --> Help.
+OperationGuide movie is from Help:"Ajagoc?".
+-------------------------------------------------------
+Server connections:
+    Switch to server list panel.
+    This is startup panel.
+Partner connections:
+    Switch to partner list panel.
+    Wireless LAN environment is required to connect
+    thru partners list.
+    If not, use "Wi-Fi Direct" for over android 4.
+    If Wi-Fi Direct is not available, 
+    use Bluetooth connection from Menu of top panel.
+
+Connect:
+    Connect to selected Server or Partner.
+Edit:
+    Edit the selected destination.
+Add:
+    Add new destination to the list.
+Delete:
+    Remove the selected entry.
+ 
+(Forllowings are for "Partners connection")
+
+Open?:
+    Search opened partner of the partners list.
+    List the partner with status of "Start Server"
+    (Top menu --> Partner --> Start Server).
+    You can connect from the panel "Open Partners".
+    Wireless LAN environment is required 
+    to search opened partner.
+
+Wi-Fi Direct:(From Android 4)    
+    Open dialog "Wi-Fi Direct",
+    which follows operations Pair,Connect and Game.
+
+NFC:(Available for the device attached NFC tag)
+    Open dislog "NFC".
+    Close NFC tag part of the two devices
+    displaying this dialog.
+    Touch the screen of one device
+    when "Touch to beam" is shown.
+    Then Wi-Fi direct pairing will be done.
+    Two device is connected
+    if server side pushes "Open Port" 
+    then client side push "Connect".
+    Which is server side or client side is unpredictable.

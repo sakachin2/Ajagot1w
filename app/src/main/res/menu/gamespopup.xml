@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+	    android:id="@+id/Observe"
+    	android:title="Actions" 
+		android:typeface="monospace"
+		android:textSize="20sp"
+		android:text="Observe"
+	    android:layout_height="24sp"
+    />
+	<item
+	    android:id="@+id/Peek"
+    	android:title="Help" 
+		android:typeface="monospace"
+		android:textSize="20sp"
+		android:text="Peek"
+	    android:layout_height="24sp"
+    />
+	<item
+	    android:id="@+id/Status"
+    	android:title="Help" 
+		android:typeface="monospace"
+		android:textSize="20sp"
+		android:text="Status"
+	    android:layout_height="24sp"
+    />
+</menu>

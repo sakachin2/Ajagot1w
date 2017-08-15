@@ -1,0 +1,17 @@
+(whoAjagocja.txt)
+
+To 'type "help who" on the server',
+show Connection panel by back button 
+then enter command in the input line at bottom.
+
+Long pressing is corresponding to "right mouse button".
+
+"You can edit three of the buttons..." may not be for Wing server.
+
+WING supports Match-type.
+  Rating (Match) : Same as Ematch by default(set ematch on).
+  Rating Even(Ematch) :Server sets handicap.
+  Free (Fmatch) : Set handicap manually.
+  Free Even(FEmatch) : Server sets handicap.
+  Rating(Gmatch) : "Match"(manual handiacp) ignoring "set emach on".
+  League(Lmatch) : When both side "join"ed matching league.

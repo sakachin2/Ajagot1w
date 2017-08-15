@@ -1,0 +1,3 @@
+Match on on WING server,
+pee2peer match through Bluetooth/WiFi.
+Or vs Robots(GnuGo,pachi,fuego,ray).

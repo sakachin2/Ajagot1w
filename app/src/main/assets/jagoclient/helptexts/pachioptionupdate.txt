@@ -1,0 +1,10 @@
+(pachioptionupdate.txt)
+
+==Robo:pachi commandline parameter==
+  
+Pondering Time:seconds per move.
+  Specify manually on parent dialog directly
+  for "-t _nn" (time per game)
+  and "-t =nn" (playout count per move).
+  3 pattern will be mixed.
+Number of Thread:Thread count

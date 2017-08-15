@@ -1,0 +1,5 @@
+(configureAjagoc.txt)
+
+For Go Server:WING(wing.gr.jp), use port=1515 encoding=UTF-8.
+And once enter command "term e" at first time login completed
+ to send/receive message by english.

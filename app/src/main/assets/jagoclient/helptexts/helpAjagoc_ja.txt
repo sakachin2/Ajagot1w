@@ -1,0 +1,21 @@
+(helpAjagoc_ja.txt)
+
+ヘルプファイルはオリジナルのままです。
+(Ajagoc として修正がある場合は ヘルプ画面に"追記"ボタンがでます。)
+  
+ヘルプファイルを次の場所におくことで言語の追加や修正をすることができます
+複数言語を使用する場合は about_de.txt の様にサフィックスを付けて
+切り替えを可能にしますサフィックスは現在
+_de,_fr,_it,_pl,_ru,_ja が用意されています
+
+
+/sdcard/Ajagoc/jagoclient/helptexts/xxxxx.txt
+
+  about.txt  aboutAjagoc.txt  advanced.txt  board.txt
+  channels.txt  configure.txt confpartner.txt  encoding.txt
+  filter.txt  firewall.txt  fkeys.txt  games.txt
+  gmp.txt  help.txt  keyboard.txt  language.txt  mail.txt
+  moves.txt  obsplay.txt  overview.txt  partner.txt
+  playing.txt  port.txt  relayserver.txt  server.txt
+  sgf.txt  sound.txt  teaching.txt  terminal.txt
+  variations.txt  who.txt  windows.txt  yourname.txt

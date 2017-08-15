@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v108:1088:121117 Iconbar 9 pich for also igs/partner/gmp board -->
+<!-- v108:1084:121215 Sendfield ime input was not processed -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ConnectedGoFrame"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+            <LinearLayout                                          
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"              
+                 android:orientation="vertical"                    
+            >                                                      
+<!-- ***board & information*** -->                                 
+	            <FrameLayout
+                     android:id="@+id/BoardPanel"                   
+    	             android:layout_width="fill_parent"
+        	         android:layout_height="wrap_content"
+            	     android:orientation="vertical"                
+            	>                                                  
+                </FrameLayout>
+                <LinearLayout
+                     android:layout_width="fill_parent"
+	                 android:layout_height="1px"
+	         		 android:background="#ff000000"
+                />                                                 
+                <ImageView
+			         android:id="@+id/BigTimer"                    
+                     android:layout_width="fill_parent"
+	                 android:layout_height="12dp"
+                />                                                 
+	            <!-- android:layout_height="24dp"-->
+	            <LinearLayout                                      
+    	             android:layout_width="fill_parent"            
+        	         android:layout_height="wrap_content"          
+            	     android:orientation="vertical"                
+            	>                                                  
+                    <RelativeLayout                    
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                    >                                  
+                        <TextView
+                            android:id="@+id/Label1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="16dp"
+                            android:text="New_Game"                       
+                            android:layout_gravity="left"
+                            android:layout_alignParentLeft="true"
+	            			android:singleLine="true"
+    	        			android:scrollHorizontally="true"
+    	      		          android:textSize="8sp"
+                        />   <!--Next Move-->                          
+<!-- change to Image Button -->
+                        <Button
+                            android:id="@+id/Label2"
+                            android:layout_width="45dp"
+                            android:layout_height="16dp"
+                            android:text="--"
+                            android:layout_gravity="right"
+                            android:layout_alignParentRight="true"
+       		                style="@style/setstone"                 
+                        /> <!--setstone-->                             
+                        <!--android:layout_height="24dp"-->
+                    </RelativeLayout>                      
+                    <TextView                                  
+                        android:id="@+id/Label3"         
+                        android:layout_width="fill_parent"     
+	                    android:layout_height="16dp"
+    	                android:textSize="8sp"
+        			    android:text="label3"
+            			android:visibility="gone"
+            			android:singleLine="true"
+            			android:scrollHorizontally="true"
+                    />            <!--gameinfo-->                             
+                </LinearLayout>                                    
+        	</LinearLayout>      <!--board,bigtimer,setstone,gameinfo -->
+                                                                   
+<!-- **comment & command*** -->                                    
+  <RelativeLayout
+                 android:layout_height="wrap_content"              
+                 android:layout_width="fill_parent"
+                 android:orientation="vertical"                    
+  >  <!--comment frame and sendfield+iconbar -->
+	<LinearLayout                                          
+                 android:layout_height="wrap_content"              
+                 android:layout_width="fill_parent"
+                 android:orientation="vertical"                    
+	        	 android:id="@+id/SendField_Iconbar"
+	        	 android:layout_alignParentBottom="true"
+    >	<!--sendfield and iconbar-->
+<!-- SendField -->
+                <LinearLayout                      
+                     android:id="@+id/BottomInputLine"    
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                         android:layout_marginTop="1px"
+                >                                    
+                  <HorizontalScrollView
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:fillViewport="true"
+                  >
+                    <EditText                                  
+                         android:id="@+id/TextField1"            
+	                     android:layout_height="20dp"
+	                     android:textSize="14dp"
+	                     android:padding="2dp"
+                         android:layout_width="fill_parent"    
+                         android:text="SendField"
+			             android:cursorVisible="true"
+			             android:inputType="text"
+			             android:focusable="true"
+			             android:focusableInTouchMode="true"
+						android:longClickable="false"
+                    />
+					<!--android:nextFocusDown="@+id/TextField1" 20130718del-->
+					<!--    	android:imeOptions="actionNext"-->
+					<!--	android:singleLine="true"-->
+			        <!--     android:scrollHorizontally="true"-->
+					<!--v108del:android:imeOptions="actionDone|actionNext"-->
+                  </HorizontalScrollView>
+        		</LinearLayout>	<!--sendfield-->
+    <!-- gap between bottom input and iconbar -->
+                    <LinearLayout      
+                         android:layout_width="fill_parent"
+                         android:layout_height="1dp"
+                         android:background="#ff404040"
+                    />                  
+                    <!--     android:layout_height="10dp"-->
+        <LinearLayout                                              
+			 android:id="@+id/IconBar"
+             android:layout_width="fill_parent"                    
+             android:layout_height="24dp"
+             android:orientation="horizontal"                      
+	         android:background="#ffdcdcdc"
+        >                                                          
+        <!-- android:layout_height="17px" v108rep -->
+<!-- ***iconbar *** -->                                            
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button
+                    android:id="@+id/undo"                         
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/undo"                 
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+                    android:id="@+id/sendforwardcontainer"                
+        	>                                                          
+                <TextView                                          
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center_vertical"       
+                    android:text=" "                               
+                         android:background="#ff4040c0"
+                />                                                 
+                <Button
+                    android:id="@+id/sendforward"                         
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"
+                    style="@style/sendforward"                 
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+            <TextView                                              
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"               
+                android:layout_gravity="center_vertical"           
+                android:text=" "                                   
+                     android:background="#ff4040c0"
+            />                                                     
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/allback"                      
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/allback"                 
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/fastback"                     
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/fastback"                 
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/back"                         
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/back"                 
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/forward"                      
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center_vertical"       
+                    style="@style/forward"                 
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/fastforward"                  
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/fastforward"                 
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/allforward"                   
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/allforward"                 
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+            <TextView                                              
+                android:layout_width="wrap_content"  
+                android:layout_height="fill_parent"               
+                android:layout_gravity="center_vertical"           
+                android:text=" "                                   
+                     android:background="#ff4040c0"
+            />                                                     
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/variationback"                
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/variationback"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/variationstart"               
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/variationstart"
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/variationforward"             
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/variationforward"
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/main"                         
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/main"
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+        	>                                                          
+                <Button                                       
+                    android:id="@+id/mainend"                      
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/mainend"
+                            android:layout_marginLeft="2px"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        	<LinearLayout                                              
+            	android:layout_width="fill_parent"                    
+             	android:layout_height="fill_parent"
+             	android:orientation="horizontal"                      
+                android:layout_weight="1"
+                    android:id="@+id/sendcontainer"             
+        	>                                                          
+   	    	     <TextView                                              
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center_vertical"       
+                    android:text=" "                               
+                     android:background="#ff4040c0"
+    	        />                                                     
+                <Button                                       
+                    android:id="@+id/send"                      
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"           
+                    android:layout_gravity="center"       
+                    style="@style/send"
+                />                                                 
+                <!--android:layout_width="wrap_content"  v108rep-->
+                <!--android:layout_height="wrap_content" v108rep-->
+                <!--android:layout_gravity="center_vertical" v108rep -->
+        	</LinearLayout>                                              
+        </LinearLayout> <!--iconbar-->
+    <!-- gap between bottom line -->
+        <!--LinearLayout                          
+             android:layout_width="fill_parent"
+             android:layout_height="10dp"
+	         android:background="#ff404040"
+        /-->                                      
+	</LinearLayout>	<!--sendfield+iconbar-->
+            <LinearLayout                                          
+                 android:layout_height="wrap_content"              
+                 android:layout_width="fill_parent"
+                 android:orientation="vertical"                    
+	        	 android:layout_weight="1"
+	        	 android:id="@+id/CommentFrame"
+	        	 android:layout_above="@id/SendField_Iconbar"
+	        	 android:layout_alignParentTop="true"
+            >                                                      
+<!-- **comment Panel ** -->
+	            <FrameLayout
+                     android:id="@+id/CommentPanel"
+    	             android:layout_width="fill_parent"
+        	         android:layout_height="wrap_content"
+            	     android:orientation="vertical"                
+		        	 android:layout_weight="1"
+            	>                                                  
+<!-- Allcomment -->
+                    <ScrollView                                    
+                         android:layout_width="fill_parent"        
+                         android:layout_height="wrap_content"      
+                         android:id="@+id/AllComments"
+                         android:visibility="gone"
+				         android:background="#ff00a0ff"
+                    >                                              
+                   <!--      android:fillViewport="true" -->
+                        <TextView
+                             android:id="@+id/TextArea2"             
+                             android:layout_width="fill_parent"    
+                             android:layout_height="wrap_content"  
+                             android:text="AllComment"
+                             android:editable="false"
+                        />                                         
+                    </ScrollView>                                  
+<!-- Comment shown as default if not kibitz on -->
+                    <ScrollView                                    
+                         android:id="@+id/Comment"
+                         android:layout_width="fill_parent"        
+                         android:layout_height="wrap_content"     
+				         android:background="#ffffff00"
+                             android:fillViewport="true" 
+                    >                                              
+            <LinearLayout                                          
+                 android:layout_height="wrap_content"              
+                 android:layout_width="fill_parent"
+                 android:orientation="vertical"                    
+            >                                                      
+                        <TextView
+                             android:id="@+id/TextArea1"             
+                             android:layout_width="fill_parent"    
+                             android:layout_height="wrap_content"  
+                             android:text="Comment"
+                                          android:textSize="8sp"
+                             android:paddingBottom="8sp"
+                        />                                         
+            </LinearLayout>                                          
+                    </ScrollView>                                  
+                </FrameLayout>
+            </LinearLayout>	<!--commentFrame-->
+  </RelativeLayout>	<!-- comment frame and sendfield+iconbar -->
+</LinearLayout>
+

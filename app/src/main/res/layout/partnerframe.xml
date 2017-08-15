@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PartnerFrame"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<!--android:id="@+id/ConnectionFrame"--><!--1Aeg-->
+
+    <TextView
+         android:id="@+id/Label1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PartnerConnectionPanel"
+            android.textSize="40sp"
+	    android:background="#ffffffff"
+	    android:textColor="#ff000000"
+
+    />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+        android:background="#ff0080ff"
+
+    />
+	<LinearLayout 
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal"
+        android:layout_weight="1"
+	    android:background="#ff404040"
+	>
+        <ListView
+            android:id="@+id/Viewer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        />
+    </LinearLayout>
+    <HorizontalScrollView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+		 android:fillViewport="true"
+		 android:layout_marginTop="1px"
+    >
+        <EditText
+            android:id="@+id/TextField1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="text"
+        />
+    </HorizontalScrollView>
+	<LinearLayout 
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal"
+	>
+		<Button
+			android:id="@+id/Button1"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Game"
+	        android:layout_weight="1"
+		/>
+		<Button
+			android:id="@+id/Button2"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Restore Game"
+	        android:layout_weight="1"
+		/>
+		<Button
+			android:id="@+id/Button3"
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Close"
+	        android:layout_weight="1"
+		/>
+	</LinearLayout>
+</LinearLayout>
+

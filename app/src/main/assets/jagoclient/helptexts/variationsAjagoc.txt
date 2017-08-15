@@ -1,0 +1,4 @@
+(variationsAjagoc.txt)
+
++Shift and +Control is not tested.
+Use Menu--"Node".

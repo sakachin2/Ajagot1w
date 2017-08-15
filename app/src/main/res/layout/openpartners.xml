@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //v106:121124 menu to display ip address for pertner connection ******** -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/OpenPartners"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+    >
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+        />
+	</LinearLayout> 
+<!-- v106 add -->
+        <TextView
+             android:id="@+id/IPAddr"             
+             android:layout_width="fill_parent"   
+             android:layout_height="wrap_content"   
+             android:text="IP-Address:"
+             android:background="#ff0040c0"
+        />                                         
+	<LinearLayout 
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal"
+	>
+		<Button
+			android:id="@+id/Button1"
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Connect"
+	        android:layout_weight="1"
+	            android:nextFocusUp="@+id/Lister"
+	            android:nextFocusLeft="@+id/Lister"
+		/>
+		<Button
+			android:id="@+id/Button2"
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Refresh"
+	        android:layout_weight="1"
+		/>
+		<TextView
+			android:id="@+id/Label1"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text=" "
+		/>
+		<Button
+			android:id="@+id/Button3"
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Close"
+	        android:layout_weight="1"
+		/>
+	</LinearLayout>
+</LinearLayout>
+

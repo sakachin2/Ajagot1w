@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--//1052:121112 Iconbar2 button sensibility;RadioButton could not be scaled.               -->
+<!--//            change to Button(no need to be RadioButton, status is controled by GoFrame)-->
+<resources>
+    <style name="undo">
+    	<item name="android:background">@xml/undo</item>
+    </style>
+    <style name="allback">
+    	<item name="android:background">@xml/allback</item>
+    </style>
+    <style name="fastback">
+    	<item name="android:background">@xml/fastback</item>
+    </style>
+    <style name="back">
+    	<item name="android:background">@xml/back</item>
+    </style>
+    <style name="forward">
+    	<item name="android:background">@xml/forward</item>
+    </style>
+    <style name="fastforward">
+    	<item name="android:background">@xml/fastforward</item>
+    </style>
+    <style name="allforward">
+    	<item name="android:background">@xml/allforward</item>
+    </style>
+    <style name="variationback">
+    	<item name="android:background">@xml/variationback</item>
+    </style>
+    <style name="variationforward">
+    	<item name="android:background">@xml/variationforward</item>
+    </style>
+    <style name="variationstart">
+    	<item name="android:background">@xml/variationstart</item>
+    </style>
+    <style name="main">
+    	<item name="android:background">@xml/main</item>
+    </style>
+    <style name="mainend">
+    	<item name="android:background">@xml/mainend</item>
+    </style>
+    <style name="sendforward">
+    	<item name="android:background">@xml/sendforward</item>
+    </style>
+    <style name="send">
+    	<item name="android:background">@xml/send</item>
+    </style>
+    <!--style name="mark" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/mark</item-->
+    <style name="mark">
+    	<item name="android:background">@xml/mark</item>
+    </style>
+    <!--style name="square" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/square</item-->
+    <style name="square">
+    	<item name="android:background">@xml/square</item>
+    </style>
+    <!--style name="triangle" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/triangle</item-->
+    <style name="triangle">
+    	<item name="android:background">@xml/triangle</item>
+    </style>
+    <!--style name="circle" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/circle</item-->
+    <style name="circle">
+    	<item name="android:background">@xml/circle</item>
+    </style>
+    <!--style name="letter" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/letter</item-->
+    <style name="letter">
+    	<item name="android:background">@xml/letter</item>
+    </style>
+    <!--style name="text" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/text</item-->
+    <style name="text">
+    	<item name="android:background">@xml/text</item>
+    </style>
+    <!--style name="black" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/black</item-->
+    <style name="black">
+    	<item name="android:background">@xml/black</item>
+    </style>
+    <!--style name="white" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/white</item-->
+    <style name="white">
+    	<item name="android:background">@xml/white</item>
+    </style>
+    <!--style name="setblack" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/setblack</item-->
+    <style name="setblack">
+    	<item name="android:background">@xml/setblack</item>
+    </style>
+    <!--style name="setwhite" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/setwhite</item-->
+    <style name="setwhite">
+    	<item name="android:background">@xml/setwhite</item>
+    </style>
+    <!--style name="delete" parent="android:Widget.CompoundButton.RadioButton"-->
+    	<!--item name="android:button">@xml/delete</item-->
+    <style name="delete">
+    	<item name="android:background">@xml/delete</item>
+    </style>
+    <style name="deletemarks">
+    	<item name="android:background">@xml/deletemarks</item>
+    </style>
+    <style name="play">
+    	<item name="android:background">@xml/play</item>
+    </style>
+
+    <style name="setstone">       <!-- set stone -->
+    	<item name="android:background">@xml/setstone</item>
+    </style>
+</resources>

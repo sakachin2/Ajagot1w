@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/WhoFrame"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout 
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+	    android:background="#ff404040"
+        android:layout_weight="1"
+	>
+        <ListView
+            android:id="@+id/Lister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        />
+	</LinearLayout> 
+	<LinearLayout 
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal"
+	>
+<!-- Refresh -->
+		<Button
+			android:id="@+id/Button1"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Refresh"
+	        android:layout_weight="1"
+	            android:nextFocusUp="@+id/Lister"
+	            android:nextFocusLeft="@+id/Lister"
+		/>
+<!-- *** WhoRange *** -->
+            <EditText
+                android:id="@+id/TextField1"
+    		android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=""
+	            android:inputType="text"
+                android:scrollHorizontally="true"
+	            android:hint="@string/Hint_CF_WhoRange"
+				android:layout_marginTop="1px"
+				android:layout_marginBottom="1px"
+	        android:layout_weight="1"
+            />
+<!-- Close -->
+		<Button
+			android:id="@+id/Button2"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Close"
+	        android:layout_weight="1"
+		/>
+<!-- Toogle_Looking -->
+		<Button
+			android:id="@+id/Button3"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Toggle_Friends"
+	        android:layout_weight="1"
+		/>
+<!-- Toogle_Fiends -->
+		<Button
+			android:id="@+id/Button4"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical"
+			android:text="Toggle_Looking"
+	            android:nextFocusDown="@+id/Lister"
+	            android:nextFocusRight="@+id/Lister"
+	        android:layout_weight="1"
+		/>
+	</LinearLayout>
+</LinearLayout>
+

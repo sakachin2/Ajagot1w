@@ -1,0 +1,35 @@
+(boardAjagoc.txt)
+
+No hint is displayed for icon button below the board. That is, from left,
+  Undo last move
+  Direction:
+    To start of game,10 moves back,One move back,One move forward,10 moves forward,To end of game or variation
+  Variation:
+    To previous variation,To start of the variation,To next variation,Back to the main game branch,To end of main game branch
+  Open disalog to send text
+
+  Additional to Local Viewer
+    Mark, Mark with square, Mark with triangle, Mark with circle, Mark with a,b,c, mark with any text,
+    Black Move, White Move,
+    Setup:Black(e.g handicap), Setup:White, Delete a stone,
+    Remove all marks,
+    Resume playing
+
+A label displaying the field coordinates under the cursor
+  This is icon button.
+  When two touch mode,this means "move" determined,
+  push after cursor moved by touching or sliding.
+
+Undo button(leftmost)
+  To undo your last move of the match on Go server,
+  push "Send" to open Say dialog.
+  Push "Say" after set message requesting undo.
+  If opponent pushed "Undo", your last move is reset.
+  For partner match,when "Undo" pushed, dialog requesting undo will popup on opponent device.
+  If opponent replied yes, opponent's and your last move is reset.
+
+Board options
+  When memory shortage warning was issued,
+  close other board if mulitiple board remains opened.
+  Not fixed yet, set following options to off.
+    True Color Board, True Color Stones, Anti-alias Stones, Shadows.

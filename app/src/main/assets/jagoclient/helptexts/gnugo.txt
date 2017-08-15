@@ -1,0 +1,53 @@
+(gnugo.txt)
+
+==Against Robo:GnuGo==
+  Use icon button at bottom-Left to
+  "undo" (takeback 2 stones).
+  To get game result,
+  you have to agree with Robo by move:pass.
+  (Menu-->Finish Game-->Pass)
+  Then remove all prisoners by touchig stones.
+  (Menu-->Finish Game-->Remove groups)
+  Finally show result.
+  (Menu-->Finish Game-->Local Count)
+
+Program:
+  Default=GnuGo (embedded)
+  To use another program with GTP interface,
+  specify the fullpath name.
+  Clear to restore default value when mis-typed.
+Your Name:
+  It is displayed on Game Information.
+Board Size:
+  19, 13 or 9
+Handicap:
+  For beginners, number of Black stones placed
+  at start of game. Maximum is 9.
+Komi:
+  Initial gain for White.
+  6.5 is current standard for even match.
+Play White:
+  Robo is first move, you are second move.
+Japanese Rule:
+  There are rare cases that game result is
+  different by 1 stone between Japanese and Chinese rules.
+-----(GnuGo option)--------------------------------------
+Strength:
+  1 to 10, default i1 10 (hardest)
+Main+Extra/Move:
+   "Main" is initial timelimit.
+   After initial timelimit exausted,
+   you should move number of "Move" in the "Extra" time.
+   "Move" is usualy 1.
+   For human side,this is for notification only,
+   You can continue to play after timeout.
+Use center oriented influence:
+   Think central field is more important 
+   than corner or side.
+Not use Fuseki Database:
+   Not play along the standard move at early phase.
+Not use Joseki Database:
+   Not go by book of the standard move.
+Other optional parameters:
+  Specify additional option if you know it.
+  ex)--never-resign --allow-suicide

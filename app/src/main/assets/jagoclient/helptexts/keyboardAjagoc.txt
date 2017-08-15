@@ -1,0 +1,3 @@
+(keyboardAjagoc.txt)
+
+Direction key is not avail because it is intercepted by Ajagoc as default.

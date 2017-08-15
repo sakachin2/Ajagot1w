@@ -1,0 +1,55 @@
+(confpartnerAjagoc.txt)
+
+(Partener connection by Bluetooth is menu-->Bluetooth-->Help)
+
+Ajagoc can control one match only at a time,
+"Server" means the side accept connection request.
+
+One starts server by Menu --> Partner --> "Start Server".
+The other, after switching to partner list panel, "Connect" to the partner.
+Match will start when client "Game" --> "Request", then server replies "Accept" 
+
+Partner Connection setup sample
+     Server:
+       Top panel --> Menu --> Partner --> Server Port:6970 
+     Client:
+       Top panel --> Menu --> Partner --> Your Name  :foo-c
+       Top panel --> Partner Connections --> Add
+                 Name   :foo-s
+                 Server :server IP address
+                 Port   :6970
+Partner Connection-->"Open?" button queries to servers on partners list
+that it opend as public server.
+You can request connection from the opened server list.
+
+(Note)
+      Almost public Wi-Fi spot rooter's setting of "Privacy Separator"
+      will prohibit communication among terminals under it.
+      Connection is available between two different spot
+      or domestic LAN and Wi-Fi spot.
+
+//***********
+
+Bluetooth enables Peer-to-peer matching without wireless-LAN environment.
+    (Menu:Bluetooth is from android:2.0)
+    Server:(on side of partner)
+       Top panel --> Menu --> Bluetooth --> Accept Connect
+    Then 
+    Client:(the other size)
+       Top panel --> Menu --> Bluetooth --> Connect
+       (If ,by "Connect", server-device is not listed on device selection dialog,
+       push "Scan Device" after "Make Discoverable" at Server device.)
+
+    Reply "Yes" if pairing confirmation dialog is opened.
+    (Pairing can be set previously from android's "Settings".)
+    Request "Game" from one of device on Connection panel.
+    Menu-->Finish Game->End Game,then prisoners will be removed.
+(Note)
+    Bluetooth may be glitchy at current(android-3,2013/01) depending device.
+    It may fail to connect after some times of connect and disconnect.
+    Try to connect from another device.
+    If yet not connectable,try to Off and On on android bluetooth "Settings".
+    If not yet, reboot device which is selected by your intuition at first.
+
+    When connection failed, next "connect" request in 10 seconds will 
+    get "in connecting" warning.

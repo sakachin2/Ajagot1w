@@ -1,0 +1,3 @@
+WINGなどの碁サーバーに接続するか
+Bluetooth,WiFiで１対１接続で対局
+またロボット(GnuGo,pachi,fuego,ray)と対戦できます。

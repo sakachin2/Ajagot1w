@@ -1,0 +1,63 @@
+(fuego.txt)
+
+==Against Robo:fuego==
+  Use icon button at bottom-Left to "undo"(takeback 2 stones)
+  To get game result,
+  you have to agree with Robo by move:pass.
+  (Menu-->Finish Game-->Pass)
+  Then remove all prisoners by touchig stones.
+  (Menu-->Finish Game-->Remove groups)
+  Finally show result.
+  (Menu-->Finish Game-->Local Count)
+  
+Program:
+  Default=fuego (embedded)
+  To use another program with GTP interface,
+  specify the fullpath name.
+  Clear to restore default value when mis-typed.
+Your Name:
+  It is displayed on Game Information.
+Board Size:
+  19, 13 or 9
+Handicap:
+  For beginners, number of Black stones placed
+  at start of game. Maximum is 9.
+Komi:
+  Initial gain for White.
+  6.5 is current standard for even match.
+Play White:
+  Robo is first move, you are second move.
+Japanese Rule:
+  There are rare cases that game result is
+  different by 1 stone between Japanese and Chines rules.
+-----(fuego option)---------------------------------------------
+Constant time: time limit per move
+Main+Extra/Move:
+   "Main" is initial timelimit.
+   After initial timelimit exausted,
+   you should move number of "Move" in the "Extra" time.
+   "Move" is usualy 1.
+   For human side,this is for notification only,
+   You can continue to play after timeout.
+Pondering:
+  There are rare cases that game result is
+  Thinks while you are thinking.
+Threads:
+  Parallel processing count.
+  Currently distributed device's CPU Core is 2 - 8. 
+  More cores make more stronger
+  but there may be bad influence to oher application.
+Use opening book :
+  This takes noticeably longer to start up
+  depending the size of book.
+  (On Nexus7, 5 seconds for "book.dat"(134KB),
+   1min for "bookra6.dat"(5MB)).
+Book file:
+  book.dat and bookra6.dat are embeded.
+  If you have another book,specify the full path name.
+Other optional parameters:
+  Specify additional option if you know it.
+  Format is (cmdline options);(config options)
+  config option line separator is ",".
+  ";" is also required even when cmdlien options only. 
+  ex) --srand 1 ; uct_max_memory 6000000000,go_param_rules ko_rule simple,uct_param_player search_mode playout_policy

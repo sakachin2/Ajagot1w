@@ -1,0 +1,33 @@
+(bluetoothAjagoc.txt)
+
+Bluetooth enables Peer-to-peer partner matching without wireless-LAN environment.
+  (Menu:Bluetooth is from android:2.0)
+  Server:(on side of partner)
+    Top panel --> Menu --> Bluetooth --> Accept Connect
+  Then 
+  Client:(the other size)
+    Top panel --> Menu --> Bluetooth --> Connect
+    (If ,by "Connect", server-device is not listed
+    on device selection dialog, push "Scan Device"
+    after "Make Discoverable" at Server device.)
+
+  Reply "Yes" if pairing confirmation dialog is opened.
+  (Pairing can be set previously from android's "Settings".)
+  Request "Game" from one of device on Connection panel.
+  Menu-->Finish Game->End Game,then prisoners will be removed.
+  When panel was closed(Menu button-->Close),
+  or when close operation after connection was lost, 
+  if you replied "save" for popup disalog.
+  you can restart the game by "Restore Game" at re-connection.
+
+(Note)
+  Bluetooth may be glitchy at current(android-3,2013/01)
+  depending device.
+  It may fail to connect after some times of
+  connect and disconnect.
+  Try to connect from another device.
+  If yet not connectable,try to Off and On
+  on android bluetooth "Settings".
+  If not yet, reboot device which is selected
+  by your intuition at first.
+
