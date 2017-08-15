@@ -27,6 +27,7 @@ by "Menu-->Online Help-->Ajagoc?-->OperationGuide Moview button"
            JagoClient:-->http://jagoclient.sourceforge.net
 
    At first, select server, push 'Connect' button then enter 'guest'.
+
 (2) Match with the known partner.
       Without Go server, pear to pear matching with partner
       which IP address is known.
@@ -44,11 +45,13 @@ by "Menu-->Online Help-->Ajagoc?-->OperationGuide Moview button"
 
       You can create connection also by (NFC+)Bluetooth for peer-to-peer matching
       if IP connection is not available.
+
 (3) LocalView
       This is simply a board view.
       Use it to resolve Composed-Go-Problem, study Go-Master's record,
       or review/make variation of sgf file.
       It may be for face-to-face matching if your terminal screen is big enough.
+
 (4) Match with Robot
       Your opponent is Agnugo which is my Android porting of gnugo.
       Current GnuGo version is 3.8
@@ -83,6 +86,7 @@ https://www.youtube.com/watch?v=nUvaTV7lHGA&list=PL2clNB_BpXSXgLu7dGC8EtGH9xrGLn
            茶”碁-->http://jago.yamtom.com 
 
    まず最初は '接続' ボタンを押して 'guest' と入力してみてください。
+
 (2)碁サーバーを経由せず特定のパートナーと対局。
      パートナーのIPアドレスは編集で設定しておきます。
      公衆Wi-Fi スポットのルーターは通常 "プライバシーセパレーター" の設定により
@@ -103,6 +107,7 @@ https://www.youtube.com/watch?v=nUvaTV7lHGA&list=PL2clNB_BpXSXgLu7dGC8EtGH9xrGLn
      単に碁盤です。詰碁をや名人名人の棋譜を並べたり、
      sgfファイルを読んで対局を再現したり、変化図を調べたりします
      端末が大画面なら対面での対局にも使えます
+
 (4)ロボットとの対戦
      Agnugo が相手します。現バージョンは 3.8です
      pachi-11.0 が追加されました(2016/10/01)
